@@ -35,10 +35,6 @@ repositories:
     type: git
     url: https://github.com/eholum/ros2_controllers.git
     version: 61fa02ab0f79e7015183fb527325a2c97b79a381
-  ros2_kortex:
-    type: git
-    url: git@github.com:PickNikRobotics/ros2_kortex.git
-    version: 454e89fa1fd3acd8141a5518f8e1dc6f4bc03121
   ros2_robotiq_gripper:
     type: git
     url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
