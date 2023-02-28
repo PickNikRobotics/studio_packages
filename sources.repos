@@ -13,8 +13,8 @@ repositories:
     version: 874d0b2603dccf3f7956f27fd5da1609022f1b1e
   moveit2:
     type: git
-    url: https://github.com/ros-planning/moveit2.git
-    version: e6ac06011fa455cece96b1da70c768ee85d081c2
+    url: https://github.com/sea-bass/moveit2.git
+    version: 807a2ba54ea1f2e9efb398908854f0353840c906
   moveit_task_constructor:
     type: git
     url: https://github.com/sea-bass/moveit_task_constructor.git
@@ -22,7 +22,7 @@ repositories:
   pick_ik:
     type: git
     url: https://github.com/PickNikRobotics/pick_ik.git
-    version: e642faaa0408f36ec2091cf8a9b373a00e407e78
+    version: 8f71f4e3c44323cce7712ab882a8bba94ca3caed
   realsense-ros:
     type: git
     url: https://github.com/IntelRealSense/realsense-ros.git
@@ -38,7 +38,7 @@ repositories:
   ros2_robotiq_gripper:
     type: git
     url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
-    version: b6be88dd7c92a3770755769afd400dab58f10900
+    version: 01da49469cab57ad14575c00fbe03b9885524f45
   ros_gz:
     type: git
     url: https://github.com/sea-bass/ros_gz.git
@@ -47,10 +47,6 @@ repositories:
     type: git
     url: https://github.com/EzraBrooks/rosbridge_suite.git
     version: 95228d3eca27ceddeff4148b57948096b4bf5aa3
-  rsl:
-    type: git
-    url: https://github.com/PickNikRobotics/RSL.git
-    version: 6f78f37bef4cdac058fdaf288f0106af73eeb4dc
   serial:
     type: git
     url: https://github.com/tylerjw/serial.git

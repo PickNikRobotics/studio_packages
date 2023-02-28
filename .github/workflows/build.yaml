@@ -8,9 +8,13 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-      - uses: jspricke/ros-deb-builder-action@main
+      - uses: jspricke/ros-deb-builder-action@snapshots
         with:
           DEB_DISTRO: jammy
           ROS_DISTRO: humble
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SKIP_ROS_REPOSITORY: true
+          SBUILD_CONF: |
+            $extra_repositories = ["deb http://snapshots.ros.org/humble/2023-01-27/ubuntu jammy main"];
+            $extra_repository_keys = ["/home/runner/work/studio_packages/studio_packages/ros.key"];
           SQUASH_HISTORY: true
