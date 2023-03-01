@@ -19,10 +19,6 @@ repositories:
     type: git
     url: https://github.com/sea-bass/moveit_task_constructor.git
     version: d044f8b37a92847154f73e35fb763ca84c66d856
-  pick_ik:
-    type: git
-    url: https://github.com/PickNikRobotics/pick_ik.git
-    version: 8f71f4e3c44323cce7712ab882a8bba94ca3caed
   realsense-ros:
     type: git
     url: https://github.com/IntelRealSense/realsense-ros.git
