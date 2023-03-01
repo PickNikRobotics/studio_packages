@@ -39,10 +39,6 @@ repositories:
     type: git
     url: https://github.com/sea-bass/ros_gz.git
     version: c44f5873895a9b135a7bbe2b72b73284c880453a
-  rosbridge_suite:
-    type: git
-    url: https://github.com/EzraBrooks/rosbridge_suite.git
-    version: 95228d3eca27ceddeff4148b57948096b4bf5aa3
   serial:
     type: git
     url: https://github.com/tylerjw/serial.git
