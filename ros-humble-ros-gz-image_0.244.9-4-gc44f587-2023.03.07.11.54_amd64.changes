@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-gz-image
+Binary: ros-humble-ros-gz-image
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.11.54
+Distribution: jammy
+Urgency: high
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Changed-By: Louise Poubel <louise@openrobotics.org>
+Description:
+ ros-humble-ros-gz-image - Image utilities for Gazebo simulation with ROS.
+Changes:
+ ros-humble-ros-gz-image (0.244.9-4-gc44f587-2023.03.07.11.54) jammy; urgency=high
+Checksums-Sha1:
+ f413598598463814e4c3c9b615b2797c3c20f3d2 847988 ros-humble-ros-gz-image-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.ddeb
+ 41f7e54d6a15362fb13ffec56992b9845e00f0ac 19555 ros-humble-ros-gz-image_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.buildinfo
+ 9bdf158c7e9805f2a46b6c0470cba0e31a1238f5 58286 ros-humble-ros-gz-image_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.deb
+Checksums-Sha256:
+ 6527de062dc24d22e0fea6a513b2b40729e8cb3574c1e88472bbd95981ea78f4 847988 ros-humble-ros-gz-image-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.ddeb
+ 8b3174218720a0267cc99e201546fcf071e5d8b567e5c486de8f734c8435c7e4 19555 ros-humble-ros-gz-image_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.buildinfo
+ e110ecb993a38729bdc26a269e09d416b918d4ce971dd2f5df84b5b3300be548 58286 ros-humble-ros-gz-image_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.deb
+Files:
+ 11f8eb9fb4ad5774e6035448754e642c 847988 debug optional ros-humble-ros-gz-image-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.ddeb
+ e0038eebf9f533fafa3ced6c804bc320 19555 misc optional ros-humble-ros-gz-image_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.buildinfo
+ e0207623e52ff131c5b6c558b695811d 58286 misc optional ros-humble-ros-gz-image_0.244.9-4-gc44f587-2023.03.07.11.54_amd64.deb

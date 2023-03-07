@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-gz-sim-demos
+Binary: ros-humble-ros-gz-sim-demos
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.11.59
+Distribution: jammy
+Urgency: high
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Changed-By: Louise Poubel <louise@openrobotics.org>
+Description:
+ ros-humble-ros-gz-sim-demos - Demos using Gazebo Sim simulation with ROS.
+Changes:
+ ros-humble-ros-gz-sim-demos (0.244.9-4-gc44f587-2023.03.07.11.59) jammy; urgency=high
+Checksums-Sha1:
+ 7d6b52fa356fc13cec664177275b373f5e2fa364 10849 ros-humble-ros-gz-sim-demos_0.244.9-4-gc44f587-2023.03.07.11.59_amd64.buildinfo
+ f3c57704345f9d05600614e3675befb388163be3 20704 ros-humble-ros-gz-sim-demos_0.244.9-4-gc44f587-2023.03.07.11.59_amd64.deb
+Checksums-Sha256:
+ b6297fde8ab2c84eab6552c33daed1d11a0ac5958307ef78a882d040f9400b13 10849 ros-humble-ros-gz-sim-demos_0.244.9-4-gc44f587-2023.03.07.11.59_amd64.buildinfo
+ 8e691b84ed6c58852b779f48b8d64b898bb24085fbdc060ad99033abaa0b0326 20704 ros-humble-ros-gz-sim-demos_0.244.9-4-gc44f587-2023.03.07.11.59_amd64.deb
+Files:
+ dead5d7d83df3bcb90264eaac2f97518 10849 misc optional ros-humble-ros-gz-sim-demos_0.244.9-4-gc44f587-2023.03.07.11.59_amd64.buildinfo
+ 651ba5624acea60b2f22911af294fa23 20704 misc optional ros-humble-ros-gz-sim-demos_0.244.9-4-gc44f587-2023.03.07.11.59_amd64.deb

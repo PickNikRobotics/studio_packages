@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-ign
+Binary: ros-humble-ros-ign
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.12.00
+Distribution: jammy
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-humble-ros-ign - Shim meta-package to redirect to ros_gz.
+Changes:
+ ros-humble-ros-ign (0.244.9-4-gc44f587-2023.03.07.12.00) jammy; urgency=high
+Checksums-Sha1:
+ b48362f43062f46074ab8b14a5eea45c77f3a5cb 10801 ros-humble-ros-ign_0.244.9-4-gc44f587-2023.03.07.12.00_amd64.buildinfo
+ 9844c13d84bb6cd1d4934b5ee8e33bc5b67f3afe 5042 ros-humble-ros-ign_0.244.9-4-gc44f587-2023.03.07.12.00_amd64.deb
+Checksums-Sha256:
+ 29346d79519e8c3be8927d3dd18982e2c84385dd48d09a371461319b7125094f 10801 ros-humble-ros-ign_0.244.9-4-gc44f587-2023.03.07.12.00_amd64.buildinfo
+ 88a4bd413f13173313bbad773fbfee91d6c390e8b4697e1eb5ddc14a6c384fdd 5042 ros-humble-ros-ign_0.244.9-4-gc44f587-2023.03.07.12.00_amd64.deb
+Files:
+ df0abbc8ad669ef8f5d0dcdd47c2dfd9 10801 misc optional ros-humble-ros-ign_0.244.9-4-gc44f587-2023.03.07.12.00_amd64.buildinfo
+ 1fd388551481b046bb1d4f366032492b 5042 misc optional ros-humble-ros-ign_0.244.9-4-gc44f587-2023.03.07.12.00_amd64.deb

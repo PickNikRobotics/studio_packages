@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-gz-bridge
+Binary: ros-humble-ros-gz-bridge
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.11.32
+Distribution: jammy
+Urgency: high
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Changed-By: Louise Poubel <louise@openrobotics.org>
+Description:
+ ros-humble-ros-gz-bridge - Bridge communication between ROS and Gazebo Transport
+Changes:
+ ros-humble-ros-gz-bridge (0.244.9-4-gc44f587-2023.03.07.11.32) jammy; urgency=high
+Checksums-Sha1:
+ 1fb67c5b6bd4776a6a40f1c3d24b2e436b59d993 111674042 ros-humble-ros-gz-bridge-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.ddeb
+ 479793a0efdf26af3eb2e626b4fef8119af131be 19724 ros-humble-ros-gz-bridge_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.buildinfo
+ 5b214386f9b7f8ba52b4a430d677973f80b6add9 2838104 ros-humble-ros-gz-bridge_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.deb
+Checksums-Sha256:
+ f544aee99c2f381edbec07500e46aa29448993bc1863272cf568d3b527e0f154 111674042 ros-humble-ros-gz-bridge-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.ddeb
+ 0adb4130cf075517eb5a96a30a4ef25336138d7c514769c918889cca03715055 19724 ros-humble-ros-gz-bridge_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.buildinfo
+ 0dbc4b90e2e85db66be24b9f611b7ae7663602568df3b4ed6b6f901d7b8b2847 2838104 ros-humble-ros-gz-bridge_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.deb
+Files:
+ 301d445811cb6fd8165294b5df491105 111674042 debug optional ros-humble-ros-gz-bridge-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.ddeb
+ 804960d3edf76652c06ff299b2bb6a7e 19724 misc optional ros-humble-ros-gz-bridge_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.buildinfo
+ 53e8acf7d51cecef4143b8c3b0a1b346 2838104 misc optional ros-humble-ros-gz-bridge_0.244.9-4-gc44f587-2023.03.07.11.32_amd64.deb

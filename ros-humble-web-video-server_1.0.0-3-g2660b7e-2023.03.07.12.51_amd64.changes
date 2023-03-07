@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 20 Sep 2019 00:00:00 -0000
+Source: ros-humble-web-video-server
+Binary: ros-humble-web-video-server
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.0.0-3-g2660b7e-2023.03.07.12.51
+Distribution: jammy
+Urgency: high
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Changed-By: Russell Toris <rctoris@wpi.edu>
+Description:
+ ros-humble-web-video-server - HTTP Streaming of ROS Image Topics in Multiple Formats
+Changes:
+ ros-humble-web-video-server (1.0.0-3-g2660b7e-2023.03.07.12.51) jammy; urgency=high
+ .
+   * Port to ROS 2
+Checksums-Sha1:
+ b3a3c9e88cb4cc6ba16570bba07de8ac16f51979 5384372 ros-humble-web-video-server-dbgsym_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.ddeb
+ 0d9b61e0ffa05e19fa9ef976b27d5fbba928acd5 33341 ros-humble-web-video-server_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.buildinfo
+ b35add2226ad085b59022081afc0afb2aaf4bad5 160666 ros-humble-web-video-server_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.deb
+Checksums-Sha256:
+ bfc52c487d47c8a79120f79f32a5585cfc012fd33aa25a0efd26196ab71d8b47 5384372 ros-humble-web-video-server-dbgsym_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.ddeb
+ 9c0f249b458ecf0a5e547434c24d271b7edfd2febafe75e524138ca3035a4b00 33341 ros-humble-web-video-server_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.buildinfo
+ 59656fb35984c803393a5dacae3176c18b74d9fef79d67e15d2498ae222343c2 160666 ros-humble-web-video-server_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.deb
+Files:
+ 7ac76f15f98f65f7d5c14183f29c54e5 5384372 debug optional ros-humble-web-video-server-dbgsym_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.ddeb
+ dd44a14158571f35ed30148843ffe24d 33341 misc optional ros-humble-web-video-server_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.buildinfo
+ c5b9062e4128e435ab931a97582057d3 160666 misc optional ros-humble-web-video-server_1.0.0-3-g2660b7e-2023.03.07.12.51_amd64.deb

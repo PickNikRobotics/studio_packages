@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-gz-interfaces
+Binary: ros-humble-ros-gz-interfaces
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.11.30
+Distribution: jammy
+Urgency: high
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Changed-By: Louise Poubel <louise@openrobotics.org>
+Description:
+ ros-humble-ros-gz-interfaces - Message and service data structures for interacting with Gazebo f
+Changes:
+ ros-humble-ros-gz-interfaces (0.244.9-4-gc44f587-2023.03.07.11.30) jammy; urgency=high
+ .
+   * Export rcl_interfaces exec dependency (#317 <https://github.com/gazebosim/ros_gz/issues/317>)
+   * Contributors: Michael Carroll
+Checksums-Sha1:
+ a2018b47881c49f7ea16df699043b3bebf72fca1 1829342 ros-humble-ros-gz-interfaces-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.ddeb
+ 202b65d22f3f0975bff3fdc3f3d83511178712af 14542 ros-humble-ros-gz-interfaces_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.buildinfo
+ 01c25bab95dd0e22def5fd352c293d400c6880e5 218816 ros-humble-ros-gz-interfaces_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.deb
+Checksums-Sha256:
+ 3f983f9bc431d15b009d50dd8faaa608a3b845f08e472b45b457deee18217c81 1829342 ros-humble-ros-gz-interfaces-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.ddeb
+ becfb24a3d73c1140eadd779ed4cf5683bb3808cb0a422a0afb933dd037ce889 14542 ros-humble-ros-gz-interfaces_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.buildinfo
+ 120f72d843e5cbb7a9c8880782458f3659be75eaa681bab551bbdd3e6cb2cc29 218816 ros-humble-ros-gz-interfaces_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.deb
+Files:
+ 00eb25be2351f46fa5e15aa47eb543d8 1829342 debug optional ros-humble-ros-gz-interfaces-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.ddeb
+ 0f3a4f7c5d9951c55020513c3e22f2ec 14542 misc optional ros-humble-ros-gz-interfaces_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.buildinfo
+ 5c579f68e26e19d0febcce37a845f1eb 218816 misc optional ros-humble-ros-gz-interfaces_0.244.9-4-gc44f587-2023.03.07.11.30_amd64.deb

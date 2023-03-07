@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Tue, 13 Sep 2022 00:00:00 -0000
+Source: ros-humble-realsense2-camera-msgs
+Binary: ros-humble-realsense2-camera-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.51.1-66-g4073f15-2023.03.07.11.11
+Distribution: jammy
+Urgency: high
+Maintainer: LibRealSense ROS Team <librs.ros@intel.com>
+Changed-By: LibRealSense ROS Team <librs.ros@intel.com>
+Description:
+ ros-humble-realsense2-camera-msgs - RealSense camera_msgs package containing realsense camera message
+Changes:
+ ros-humble-realsense2-camera-msgs (4.51.1-66-g4073f15-2023.03.07.11.11) jammy; urgency=high
+ .
+   * Add copyright and license to all ROS2-beta source files
+   * Contributors: SamerKhshiboun
+Checksums-Sha1:
+ 4e9384f1f3b030c76eb329a0c9f44cadba09f23b 399930 ros-humble-realsense2-camera-msgs-dbgsym_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.ddeb
+ 0ae601256af94ec5a2f0efe262c3f7067d48cca8 14460 ros-humble-realsense2-camera-msgs_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.buildinfo
+ be0aa32a2d21fd9fd1377486fc345e3408bcd5db 72812 ros-humble-realsense2-camera-msgs_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.deb
+Checksums-Sha256:
+ ed366f92040b0abfc9c3c09ddc498262a114a98d01f754b01b65d86ec9f1845e 399930 ros-humble-realsense2-camera-msgs-dbgsym_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.ddeb
+ b50cce6c76e902d67c240dc41d3f629f71235cd918625c3913b0210b483517a7 14460 ros-humble-realsense2-camera-msgs_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.buildinfo
+ d6ce694633605ab18002188aaa9975c6c0e190e4fa39c8114960f15f95b5a892 72812 ros-humble-realsense2-camera-msgs_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.deb
+Files:
+ 93cb617a2d5ba4101b409fd61b451236 399930 debug optional ros-humble-realsense2-camera-msgs-dbgsym_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.ddeb
+ 4e3b5c6d797d050faaece7c4907d574d 14460 misc optional ros-humble-realsense2-camera-msgs_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.buildinfo
+ c356de40f1fcec6c3c3c5ad4bf1c111a 72812 misc optional ros-humble-realsense2-camera-msgs_4.51.1-66-g4073f15-2023.03.07.11.11_amd64.deb

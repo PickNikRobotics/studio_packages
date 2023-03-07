@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-position-controllers
+Binary: ros-humble-position-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.11.09
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-position-controllers - Generic controller for forwarding commands.
+Changes:
+ ros-humble-position-controllers (2.13.0-8-g61fa02a-2023.03.07.11.09) jammy; urgency=high
+Checksums-Sha1:
+ aaefb9571435edd3752601c4a8fdccc3f210aac9 253302 ros-humble-position-controllers-dbgsym_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.ddeb
+ 5a4aa73443c916e15cc369cc8651c7324b52a489 17630 ros-humble-position-controllers_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.buildinfo
+ 512392d47815fad1395463b6af94d1cfb85a1bf7 19354 ros-humble-position-controllers_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.deb
+Checksums-Sha256:
+ 37efd1276549d41ac97c8e9891c29e86d81c1a4060fa58988a3796e654d1f0ff 253302 ros-humble-position-controllers-dbgsym_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.ddeb
+ 87aa42933a4e3f851ddfa95d0686d4e23ba8609da5a5a28916fcb830ac965bec 17630 ros-humble-position-controllers_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.buildinfo
+ 91ff52d0224f8ecd66d7973746f04c535adf3130d7e145e19d44bc13e2d756a5 19354 ros-humble-position-controllers_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.deb
+Files:
+ f28aad72b424d3dea64349aa674a9b6a 253302 debug optional ros-humble-position-controllers-dbgsym_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.ddeb
+ b5e02c35d7a642e1e683032c10642c2c 17630 misc optional ros-humble-position-controllers_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.buildinfo
+ 24966a4c86538f0abdf439d76b3d329f 19354 misc optional ros-humble-position-controllers_2.13.0-8-g61fa02a-2023.03.07.11.09_amd64.deb

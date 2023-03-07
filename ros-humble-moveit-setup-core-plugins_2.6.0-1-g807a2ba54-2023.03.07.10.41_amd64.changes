@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-core-plugins
+Binary: ros-humble-moveit-setup-core-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-1-g807a2ba54-2023.03.07.10.41
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-core-plugins - Core (meta) plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-core-plugins (2.6.0-1-g807a2ba54-2023.03.07.10.41) jammy; urgency=high
+ .
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Cleanup cmake files
+     - Replace ament_export_libraries() -> ament_export_targets(HAS_LIBRARY_TARGET)
+     - Replace ament_export_include_directories() -> INCLUDES DESTINATION include
+     See https://docs.ros.org/en/foxy/How-To-Guides/Ament-CMake-Documentation.html#building-a-library
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ 834a70b66235f501460450f6916beef8b92a077d 5251730 ros-humble-moveit-setup-core-plugins-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.ddeb
+ 3f518994405f587df3a200ffa3c73c3f222c7368 33090 ros-humble-moveit-setup-core-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.buildinfo
+ 82f51c24766169859a71ede2689a88a8a9fb0ed9 59682 ros-humble-moveit-setup-core-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.deb
+Checksums-Sha256:
+ 8947ae22c3ed8331263bfc37aeb8b3b7ad71f4516d39ba0cea5f3bcd099ab36a 5251730 ros-humble-moveit-setup-core-plugins-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.ddeb
+ 5bdc1f4d5711442cd6390134811d2b193bd679c71c80850b4b566be92e062611 33090 ros-humble-moveit-setup-core-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.buildinfo
+ 214ec61e5e96aaeb0abe4a946d7da6196b464b428520d08f01d7d4eef430c2d3 59682 ros-humble-moveit-setup-core-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.deb
+Files:
+ c6534caa6c17d2da60c8061a026e994e 5251730 debug optional ros-humble-moveit-setup-core-plugins-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.ddeb
+ 4da0921f03c7f339295695bca515b220 33090 misc optional ros-humble-moveit-setup-core-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.buildinfo
+ 8f51b9e3f6c3c470fb9aa649711d3263 59682 misc optional ros-humble-moveit-setup-core-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.41_amd64.deb

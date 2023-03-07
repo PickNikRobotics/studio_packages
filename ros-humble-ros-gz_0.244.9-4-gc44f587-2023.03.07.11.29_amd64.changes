@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-gz
+Binary: ros-humble-ros-gz
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.11.29
+Distribution: jammy
+Urgency: high
+Maintainer: Louise Poubel <louise@openrobotics.org>
+Changed-By: Louise Poubel <louise@openrobotics.org>
+Description:
+ ros-humble-ros-gz - Meta-package containing interfaces for using ROS 2 with Gazebo si
+Changes:
+ ros-humble-ros-gz (0.244.9-4-gc44f587-2023.03.07.11.29) jammy; urgency=high
+Checksums-Sha1:
+ c392dc4d66b3dc4dabe7b6574d033e9d2416bbf5 10796 ros-humble-ros-gz_0.244.9-4-gc44f587-2023.03.07.11.29_amd64.buildinfo
+ 7355c49a1e2aea6a0c08dfe1a2306765f83899b1 6600 ros-humble-ros-gz_0.244.9-4-gc44f587-2023.03.07.11.29_amd64.deb
+Checksums-Sha256:
+ 20a66f61f9b43695a797a1c34e08ff7ece9dce58d146d2a0d50a9ae794c0407b 10796 ros-humble-ros-gz_0.244.9-4-gc44f587-2023.03.07.11.29_amd64.buildinfo
+ a6000fd93eb3196ceba38fa011732d8c7974b797c8e13e8a45310404e000d44e 6600 ros-humble-ros-gz_0.244.9-4-gc44f587-2023.03.07.11.29_amd64.deb
+Files:
+ 03a167e2165ca9c0cb9081e03db43149 10796 misc optional ros-humble-ros-gz_0.244.9-4-gc44f587-2023.03.07.11.29_amd64.buildinfo
+ 32ea78655ab90482056103091fd8c8a7 6600 misc optional ros-humble-ros-gz_0.244.9-4-gc44f587-2023.03.07.11.29_amd64.deb

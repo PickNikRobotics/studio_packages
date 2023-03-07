@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-tricycle-controller
+Binary: ros-humble-tricycle-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.12.46
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-tricycle-controller - Controller for a tricycle drive mobile base
+Changes:
+ ros-humble-tricycle-controller (2.13.0-8-g61fa02a-2023.03.07.12.46) jammy; urgency=high
+Checksums-Sha1:
+ b22fcd1a5f132e3c0c485af358f8f087817a19fc 3723894 ros-humble-tricycle-controller-dbgsym_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.ddeb
+ cd8894cfbb272a6ab1a360fc6923508b3c36097d 17130 ros-humble-tricycle-controller_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.buildinfo
+ 36453e6569113d437015665878949f46fdd33940 179848 ros-humble-tricycle-controller_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.deb
+Checksums-Sha256:
+ 248412459a1834f311bcc5648e95bd8ac2fb11f5ff8ba7830942f055cdeca9a3 3723894 ros-humble-tricycle-controller-dbgsym_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.ddeb
+ 43a639680b91573ddb3694a95c0f3ee8979397c4b2d1a634e293c62ca907819b 17130 ros-humble-tricycle-controller_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.buildinfo
+ 7503dcab43163690dd8e0e318b41fab0166bae0156e853eef9f24bf4bfe731da 179848 ros-humble-tricycle-controller_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.deb
+Files:
+ 4f55afc1c7f6af992a312dde251bafb8 3723894 debug optional ros-humble-tricycle-controller-dbgsym_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.ddeb
+ 9ad7ba95e5d0f2f3dff0237b1df6e637 17130 misc optional ros-humble-tricycle-controller_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.buildinfo
+ 93488c9f28b8289d03830fc67db5e370 179848 misc optional ros-humble-tricycle-controller_2.13.0-8-g61fa02a-2023.03.07.12.46_amd64.deb

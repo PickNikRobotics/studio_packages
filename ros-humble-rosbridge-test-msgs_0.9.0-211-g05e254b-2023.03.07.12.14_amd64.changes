@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-humble-rosbridge-test-msgs
+Binary: ros-humble-rosbridge-test-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.0-211-g05e254b-2023.03.07.12.14
+Distribution: jammy
+Urgency: high
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Changed-By: Jihoon Lee <jihoonlee.in@gmail.com>
+Description:
+ ros-humble-rosbridge-test-msgs - Message and service definitions used in internal tests for rosbri
+Changes:
+ ros-humble-rosbridge-test-msgs (0.9.0-211-g05e254b-2023.03.07.12.14) jammy; urgency=high
+Checksums-Sha1:
+ 8cef993b5861dadb3a9f8e095c6650793ded2f16 1511066 ros-humble-rosbridge-test-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.ddeb
+ 39abdab4c439fb42cf27503484bdcd4c439ccf7b 13584 ros-humble-rosbridge-test-msgs_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.buildinfo
+ d640eeca8f5039c69c3e3264e9e469caa9eb29a2 200166 ros-humble-rosbridge-test-msgs_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.deb
+Checksums-Sha256:
+ 261304b58423b170ab84203f860fca599d1b937aa4c243eaa9e0d4d85064b104 1511066 ros-humble-rosbridge-test-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.ddeb
+ 41d99d68930464530a750ad56962bcd0033d0b65dd3f09cc0bb69e36f8e8eac9 13584 ros-humble-rosbridge-test-msgs_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.buildinfo
+ 06c22982b58759af9979df562d4d742cc2ab17da1678a454d4ff2bbc4e80d770 200166 ros-humble-rosbridge-test-msgs_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.deb
+Files:
+ fba8af8a10bc2859713198d6cfcddcad 1511066 debug optional ros-humble-rosbridge-test-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.ddeb
+ 8e10b9cae68e915e3bb143aab9e72b3a 13584 misc optional ros-humble-rosbridge-test-msgs_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.buildinfo
+ 5ce2167f7a822175fe0effca7b3bf4aa 200166 misc optional ros-humble-rosbridge-test-msgs_0.9.0-211-g05e254b-2023.03.07.12.14_amd64.deb

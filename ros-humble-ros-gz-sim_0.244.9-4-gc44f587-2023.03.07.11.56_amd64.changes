@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-gz-sim
+Binary: ros-humble-ros-gz-sim
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.11.56
+Distribution: jammy
+Urgency: high
+Maintainer: Alejandro Hernandez <ahcorde@openrobotics.org>
+Changed-By: Alejandro Hernandez <ahcorde@openrobotics.org>
+Description:
+ ros-humble-ros-gz-sim - Tools for using Gazebo Sim simulation with ROS.
+Changes:
+ ros-humble-ros-gz-sim (0.244.9-4-gc44f587-2023.03.07.11.56) jammy; urgency=high
+ .
+   * Export ROS Stopwatch library (#299 <https://github.com/gazebosim/ros_gz/issues/299>) (#322 <https://github.com/gazebosim/ros_gz/issues/322>)
+     New Stopwatch library needs to be exported and built as shared
+     Co-authored-by: Michael Anderson <mailto:anderson@mbari.org>
+   * Contributors: Michael Carroll
+Checksums-Sha1:
+ dc8410855c52f59683deccf408a48e72eff67d71 4648874 ros-humble-ros-gz-sim-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.ddeb
+ 3bb68a872c55a6b544087776e68d01a5eadc739d 40886 ros-humble-ros-gz-sim_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.buildinfo
+ 04e2b4352a05218517695f9ca90e180fd3d4727d 276224 ros-humble-ros-gz-sim_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.deb
+Checksums-Sha256:
+ 8b30d7f697a9e21eae6bf2d78c8af5d3736b343b3775013f2b9b8ee0102a7344 4648874 ros-humble-ros-gz-sim-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.ddeb
+ 5d83accc52a7fe32b905b81dac75919b0daeaf10dab41740d30a2277ba946110 40886 ros-humble-ros-gz-sim_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.buildinfo
+ 4ec5ba58d4c182ce454519ce4bb8c8e782eac7dac8398b36548f803de3135da0 276224 ros-humble-ros-gz-sim_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.deb
+Files:
+ 01744a2b0136a9f5f49c9470875a31d4 4648874 debug optional ros-humble-ros-gz-sim-dbgsym_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.ddeb
+ 37870aa7237af0bf4f2cba19e2736685 40886 misc optional ros-humble-ros-gz-sim_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.buildinfo
+ 9c95cd8c7a6b2f14c42b5eaa0b9c2c28 276224 misc optional ros-humble-ros-gz-sim_0.244.9-4-gc44f587-2023.03.07.11.56_amd64.deb

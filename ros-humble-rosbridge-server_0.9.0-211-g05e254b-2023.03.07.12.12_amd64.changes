@@ -1,0 +1,33 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-humble-rosbridge-server
+Binary: ros-humble-rosbridge-server
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.0-211-g05e254b-2023.03.07.12.12
+Distribution: jammy
+Urgency: high
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Changed-By: Jihoon Lee <jihoonlee.in@gmail.com>
+Description:
+ ros-humble-rosbridge-server - A WebSocket interface to rosbridge.
+Changes:
+ ros-humble-rosbridge-server (0.9.0-211-g05e254b-2023.03.07.12.12) jammy; urgency=high
+ .
+   * Fix exceptions not being handled correctly. (#817 <https://github.com/RobotWebTools/rosbridge_suite/issues/817>)
+   * Skip unnecessary conversion for cbor/cbor-raw compression (#792 <https://github.com/RobotWebTools/rosbridge_suite/issues/792>) (#800 <https://github.com/RobotWebTools/rosbridge_suite/issues/800>)
+   * Improve robustness for multiple client connections (#803 <https://github.com/RobotWebTools/rosbridge_suite/issues/803>)
+   * Minor performance improvements (#809 <https://github.com/RobotWebTools/rosbridge_suite/issues/809>)
+   * Fix hostname parameter is no longer converted as an int value (#780 <https://github.com/RobotWebTools/rosbridge_suite/issues/780>)
+   * Fix duplicate subscription created with wrong 'raw' attribute. (#798 <https://github.com/RobotWebTools/rosbridge_suite/issues/798>)
+   * Add graceful shutdown (#794 <https://github.com/RobotWebTools/rosbridge_suite/issues/794>)
+   * Contributors: Hans-Joachim Krauch, Hugo Perier, Steffen Nattke
+Checksums-Sha1:
+ 088a3b1802cb8b17a1dab9f4627998ebc625a392 15995 ros-humble-rosbridge-server_0.9.0-211-g05e254b-2023.03.07.12.12_amd64.buildinfo
+ 28cfe307ab596aa29c3d37493cd507bd740f7e9b 20480 ros-humble-rosbridge-server_0.9.0-211-g05e254b-2023.03.07.12.12_amd64.deb
+Checksums-Sha256:
+ 875b912817076a7f866f483655a8d332949ab3228729954828d1d75ea269531b 15995 ros-humble-rosbridge-server_0.9.0-211-g05e254b-2023.03.07.12.12_amd64.buildinfo
+ 8edd6462bb9433ed5eb7d9a5f5f1f0cd1b6965ea483eef6d8df6c65fb4a7c3ac 20480 ros-humble-rosbridge-server_0.9.0-211-g05e254b-2023.03.07.12.12_amd64.deb
+Files:
+ 2fd59f30ceee4e8aa859456ef62b1bd2 15995 misc optional ros-humble-rosbridge-server_0.9.0-211-g05e254b-2023.03.07.12.12_amd64.buildinfo
+ f8b142287f7f835fc0f10ed2f4b7d479 20480 misc optional ros-humble-rosbridge-server_0.9.0-211-g05e254b-2023.03.07.12.12_amd64.deb

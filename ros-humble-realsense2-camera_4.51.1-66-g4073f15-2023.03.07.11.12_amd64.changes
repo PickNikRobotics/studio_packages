@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Tue, 13 Sep 2022 00:00:00 -0000
+Source: ros-humble-realsense2-camera
+Binary: ros-humble-realsense2-camera
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.51.1-66-g4073f15-2023.03.07.11.12
+Distribution: jammy
+Urgency: high
+Maintainer: LibRealSense ROS Team <librs.ros@intel.com>
+Changed-By: LibRealSense ROS Team <librs.ros@intel.com>
+Description:
+ ros-humble-realsense2-camera - RealSense camera package allowing access to Intel SR300 and D400
+Changes:
+ ros-humble-realsense2-camera (4.51.1-66-g4073f15-2023.03.07.11.12) jammy; urgency=high
+ .
+   * Fix crash when activating IMU & aligned depth together
+   * Fix rosbag device loading by preventing set_option to HDR/Gain/Exposure
+   * Support ROS2 Humble
+   * Publish real frame rate of realsense camera node topics/publishers
+   * No need to start/stop sensors for align depth changes
+   * Fix colorizer filter which returns null reference ptr
+   * Fix align_depth enable/disable
+   * Add colorizer.enable to rs_launch.py
+   * Add copyright and license to all ROS2-beta source files
+   * Fix CUDA suffix for pointcloud and align_depth topics
+   * Add ROS build farm pre-release to ci
+   * Contributors: Eran, NirAz, SamerKhshiboun
+Checksums-Sha1:
+ e54e9bb573e521b480b7267e2195c6db5773e7bc 8884226 ros-humble-realsense2-camera-dbgsym_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.ddeb
+ 0c8b18bb27dfb2c2bf1a461d426f2cbdaa24a111 27408 ros-humble-realsense2-camera_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.buildinfo
+ ce2a8d63f7c13251d6e7ac482412da8d3d023dab 401518 ros-humble-realsense2-camera_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.deb
+Checksums-Sha256:
+ e2fc8c9814d76e425495c893115f5340faf43e37c42d4b001f18272fb85076fe 8884226 ros-humble-realsense2-camera-dbgsym_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.ddeb
+ 2d67ef37d9149619cde26e2baa7d47fea419c7188fa7706a3e3e40bdadf7cb36 27408 ros-humble-realsense2-camera_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.buildinfo
+ 3c98e44d595d5d76e1fcc3223f6e00f0fa5901eea722b2e9b27417dc0075b9da 401518 ros-humble-realsense2-camera_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.deb
+Files:
+ 5b3af2d186a3390de3bd531b20ccecba 8884226 debug optional ros-humble-realsense2-camera-dbgsym_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.ddeb
+ f845df6e9d4eb3231230cd4a3a7636f6 27408 misc optional ros-humble-realsense2-camera_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.buildinfo
+ 5f7623c37310d1f00d1b393123c857e3 401518 misc optional ros-humble-realsense2-camera_4.51.1-66-g4073f15-2023.03.07.11.12_amd64.deb

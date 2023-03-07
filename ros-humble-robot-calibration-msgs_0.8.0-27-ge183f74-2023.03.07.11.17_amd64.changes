@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Sat, 25 Jun 2022 00:00:00 -0000
+Source: ros-humble-robot-calibration-msgs
+Binary: ros-humble-robot-calibration-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-27-ge183f74-2023.03.07.11.17
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
+Changed-By: Michael Ferguson <mike@vanadiumlabs.com>
+Description:
+ ros-humble-robot-calibration-msgs - Messages for calibrating a robot
+Changes:
+ ros-humble-robot-calibration-msgs (0.8.0-27-ge183f74-2023.03.07.11.17) jammy; urgency=high
+ .
+   * port robot_calibration_msgs to ROS2, update CI (#131 <https://github.com/mikeferguson/robot_calibration/issues/131>)
+   * Contributors: Michael Ferguson
+Checksums-Sha1:
+ c71befe78aab0955b60c5f129529f24b61b09e32 1114690 ros-humble-robot-calibration-msgs-dbgsym_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.ddeb
+ 19bc3d07a0dd8b6b8cf1533ca21eff2669787a1c 13065 ros-humble-robot-calibration-msgs_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.buildinfo
+ e2589752b79f8aeb3b715473035eed6981b9faff 164916 ros-humble-robot-calibration-msgs_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.deb
+Checksums-Sha256:
+ c4177f1845ead8911f55e2a28fe0bc58e88e97ea7bae0ff9d9ff190ef998a27a 1114690 ros-humble-robot-calibration-msgs-dbgsym_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.ddeb
+ 0c4902fd8b4587c431907bf2216562de09a9c7c1cfdf2ff876f045dd68070344 13065 ros-humble-robot-calibration-msgs_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.buildinfo
+ 26fe2c0061dee5216ae8f121f2b3c7f2dade16251de331e52c0f7c47c11256bd 164916 ros-humble-robot-calibration-msgs_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.deb
+Files:
+ 126550a82cf411743343cc4352b3b459 1114690 debug optional ros-humble-robot-calibration-msgs-dbgsym_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.ddeb
+ cbcadf94a4a67e33c046236f988f20b9 13065 misc optional ros-humble-robot-calibration-msgs_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.buildinfo
+ 4a46b9089e4e3ef6c30858de45e289eb 164916 misc optional ros-humble-robot-calibration-msgs_0.8.0-27-ge183f74-2023.03.07.11.17_amd64.deb

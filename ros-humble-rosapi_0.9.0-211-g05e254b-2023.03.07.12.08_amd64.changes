@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-humble-rosapi
+Binary: ros-humble-rosapi
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.0-211-g05e254b-2023.03.07.12.08
+Distribution: jammy
+Urgency: high
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Changed-By: Jihoon Lee <jihoonlee.in@gmail.com>
+Description:
+ ros-humble-rosapi - Provides service calls for getting ros meta-information, like lis
+Changes:
+ ros-humble-rosapi (0.9.0-211-g05e254b-2023.03.07.12.08) jammy; urgency=high
+ .
+   * Add graceful shutdown (#794 <https://github.com/RobotWebTools/rosbridge_suite/issues/794>)
+   * Contributors: Hans-Joachim Krauch
+Checksums-Sha1:
+ 1544bd8ebb9cbcf75895c809f31943abc2b62d8f 12437 ros-humble-rosapi_0.9.0-211-g05e254b-2023.03.07.12.08_amd64.buildinfo
+ abfa869fe052c3c69188703b44cd4246f94189f1 19350 ros-humble-rosapi_0.9.0-211-g05e254b-2023.03.07.12.08_amd64.deb
+Checksums-Sha256:
+ 40ec99c4a3dfaa6a3594a9a836c6a58201e34a3c305403ea81d786313c067439 12437 ros-humble-rosapi_0.9.0-211-g05e254b-2023.03.07.12.08_amd64.buildinfo
+ fb77013554957ac036008b843e33100059e82f8d850fd9a0c220833d24a3d81b 19350 ros-humble-rosapi_0.9.0-211-g05e254b-2023.03.07.12.08_amd64.deb
+Files:
+ 68ec4262b65fa373edfd5acfd5f37c00 12437 misc optional ros-humble-rosapi_0.9.0-211-g05e254b-2023.03.07.12.08_amd64.buildinfo
+ 824c01f2acc99c348feb51d62e7a735d 19350 misc optional ros-humble-rosapi_0.9.0-211-g05e254b-2023.03.07.12.08_amd64.deb

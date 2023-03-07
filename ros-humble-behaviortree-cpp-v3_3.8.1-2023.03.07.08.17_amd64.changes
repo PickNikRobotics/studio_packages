@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Sun, 27 Nov 2022 00:00:00 -0000
+Source: ros-humble-behaviortree-cpp-v3
+Binary: ros-humble-behaviortree-cpp-v3
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 3.8.1-2023.03.07.08.17
+Distribution: jammy
+Urgency: high
+Maintainer: Davide Faconti <davide.faconti@gmail.com>
+Changed-By: Davide Faconti <davide.faconti@gmail.com>
+Description:
+ ros-humble-behaviortree-cpp-v3 - This package provides the Behavior Trees core library.
+Changes:
+ ros-humble-behaviortree-cpp-v3 (3.8.1-2023.03.07.08.17) jammy; urgency=high
+ .
+   * fix catkin installation #478 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/478>
+   * cherry picking changes from v4
+   * fix #227 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/227>
+   * fix issue #461 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/461>
+   * fix issue #413 <https://github.com/BehaviorTree/BehaviorTree.CPP/issues/413> (Delay logic)
+   * Update README.md
+   * Contributors: Davide Faconti
+Checksums-Sha1:
+ 7097570840ec09b34bcdbd81b43636c188c3f44a 4633242 ros-humble-behaviortree-cpp-v3-dbgsym_3.8.1-2023.03.07.08.17_amd64.ddeb
+ 904497f0521261135b7ec6f64f9032d0d47ced78 21306 ros-humble-behaviortree-cpp-v3_3.8.1-2023.03.07.08.17_amd64.buildinfo
+ e2f90112c42afd6394d3f54c17ecba6c55378ef5 284928 ros-humble-behaviortree-cpp-v3_3.8.1-2023.03.07.08.17_amd64.deb
+Checksums-Sha256:
+ 0daa0d26420654d35807a9e8165a53db77c43087f9f255c1987dac2737aeae94 4633242 ros-humble-behaviortree-cpp-v3-dbgsym_3.8.1-2023.03.07.08.17_amd64.ddeb
+ 880da0e87d1ffe8ac376f2afedbce6410076261c89f3f8882330a0d45eba3e7b 21306 ros-humble-behaviortree-cpp-v3_3.8.1-2023.03.07.08.17_amd64.buildinfo
+ 52bd8afe8c6d20f782e80ff2ef5a1a61dbdda9d5904d838c8c1c2c32cab6451c 284928 ros-humble-behaviortree-cpp-v3_3.8.1-2023.03.07.08.17_amd64.deb
+Files:
+ 706abdca4c0b04d0d7807f4ddb44ab3c 4633242 debug optional ros-humble-behaviortree-cpp-v3-dbgsym_3.8.1-2023.03.07.08.17_amd64.ddeb
+ 7ec561f17df15ae0ffe849bb2e23f34b 21306 misc optional ros-humble-behaviortree-cpp-v3_3.8.1-2023.03.07.08.17_amd64.buildinfo
+ a66579724bf030b4e4dd2ce130f0562e 284928 misc optional ros-humble-behaviortree-cpp-v3_3.8.1-2023.03.07.08.17_amd64.deb

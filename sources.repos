@@ -1,0 +1,53 @@
+repositories:
+  BehaviorTree.CPP:
+    type: git
+    url: https://github.com/BehaviorTree/BehaviorTree.CPP.git
+    version: 3.8.1
+  fp:
+    type: git
+    url: https://github.com/tylerjw/fp.git
+    version: 02d3fa788e8afa929d3e7976b029472ac84915a2
+  ign_ros2_control:
+    type: git
+    url: https://github.com/livanov93/ign_ros2_control.git
+    version: 874d0b2603dccf3f7956f27fd5da1609022f1b1e
+  moveit2:
+    type: git
+    url: https://github.com/sea-bass/moveit2.git
+    version: 807a2ba54ea1f2e9efb398908854f0353840c906
+  moveit_task_constructor:
+    type: git
+    url: https://github.com/sea-bass/moveit_task_constructor.git
+    version: d044f8b37a92847154f73e35fb763ca84c66d856
+  realsense-ros:
+    type: git
+    url: https://github.com/IntelRealSense/realsense-ros.git
+    version: 4073f1513ab9e359a3541d37a22a7ae055981414
+  robot_calibration:
+    type: git
+    url: https://github.com/Abishalini/robot_calibration.git
+    version: e183f74ad2c835a005c2cea5f237983bb8ce1aae
+  ros2_controllers:
+    type: git
+    url: https://github.com/eholum/ros2_controllers.git
+    version: 61fa02ab0f79e7015183fb527325a2c97b79a381
+  ros2_robotiq_gripper:
+    type: git
+    url: https://github.com/PickNikRobotics/ros2_robotiq_gripper.git
+    version: 01da49469cab57ad14575c00fbe03b9885524f45
+  ros_gz:
+    type: git
+    url: https://github.com/sea-bass/ros_gz.git
+    version: c44f5873895a9b135a7bbe2b72b73284c880453a
+  rosbridge_suite:
+    type: git
+    url: https://github.com/jspricke/rosbridge_suite.git
+    version: 05e254bc2361a7b7a399ab7565b8a424f3d9db4c
+  serial:
+    type: git
+    url: https://github.com/tylerjw/serial.git
+    version: d8d160678aa0b31cdf467c052b954fa287cc6cdf
+  web_video_server:
+    type: git
+    url: https://github.com/sea-bass/web_video_server.git
+    version: 2660b7e77e30d031cff22f7ad3ab5cbf107b8ce8

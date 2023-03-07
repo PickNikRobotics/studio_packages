@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-srdf-plugins
+Binary: ros-humble-moveit-setup-srdf-plugins
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-1-g807a2ba54-2023.03.07.10.44
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-srdf-plugins - SRDF-based plugins for MoveIt Setup Assistant
+Changes:
+ ros-humble-moveit-setup-srdf-plugins (2.6.0-1-g807a2ba54-2023.03.07.10.44) jammy; urgency=high
+ .
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Cleanup cmake files
+     - Replace ament_export_libraries() -> ament_export_targets(HAS_LIBRARY_TARGET)
+     - Replace ament_export_include_directories() -> INCLUDES DESTINATION include
+     See https://docs.ros.org/en/foxy/How-To-Guides/Ament-CMake-Documentation.html#building-a-library
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ b00e8d893103d70b88e7b8194b8e50612f9709fd 19819580 ros-humble-moveit-setup-srdf-plugins-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.ddeb
+ 6046b88bb6374792ddd05e64b99583d1ddba3fd5 33177 ros-humble-moveit-setup-srdf-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.buildinfo
+ 354e3883da94345764679033bf240f37ea11a34e 308808 ros-humble-moveit-setup-srdf-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.deb
+Checksums-Sha256:
+ c019c5107966ad772fbb47f644f5b5d0deb6df20ff5e56fe5204f8a93f271809 19819580 ros-humble-moveit-setup-srdf-plugins-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.ddeb
+ 20dd9a018adc44be14eab6dd920307d6c657b94233df117e5ad4da1cb981b758 33177 ros-humble-moveit-setup-srdf-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.buildinfo
+ 4d9ca6d255bf461acb1c182ae45c29553d4bcde14d46046a132d55cba1f6d809 308808 ros-humble-moveit-setup-srdf-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.deb
+Files:
+ f7c46a406c21346ea88546e4389d3018 19819580 debug optional ros-humble-moveit-setup-srdf-plugins-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.ddeb
+ 2a3af9b6090a7a964bca30d6f2511fda 33177 misc optional ros-humble-moveit-setup-srdf-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.buildinfo
+ 292af31a5ceccc12736862f09e6cdac7 308808 misc optional ros-humble-moveit-setup-srdf-plugins_2.6.0-1-g807a2ba54-2023.03.07.10.44_amd64.deb

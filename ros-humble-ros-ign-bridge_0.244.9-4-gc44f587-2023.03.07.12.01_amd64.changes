@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-ign-bridge
+Binary: ros-humble-ros-ign-bridge
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.12.01
+Distribution: jammy
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-humble-ros-ign-bridge - Shim package to redirect to ros_gz_bridge.
+Changes:
+ ros-humble-ros-ign-bridge (0.244.9-4-gc44f587-2023.03.07.12.01) jammy; urgency=high
+Checksums-Sha1:
+ 38a79cdd51eaed92318244cece7e5b4c13d06aba 46242 ros-humble-ros-ign-bridge-dbgsym_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.ddeb
+ ada397bf2e6f6482be40e2818f3240f7005fc5db 17361 ros-humble-ros-ign-bridge_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.buildinfo
+ ec35a1b9da702dccf1c350521ac4506290b43f34 10356 ros-humble-ros-ign-bridge_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.deb
+Checksums-Sha256:
+ 628361b6c95b23842c801e25f482a39c08d5cc2662d491da9a3b6f49678fb674 46242 ros-humble-ros-ign-bridge-dbgsym_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.ddeb
+ 6e15d8ab0ec20d88666dfd78718de7c62cc9d018952831b2f3a35c572d56ad9c 17361 ros-humble-ros-ign-bridge_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.buildinfo
+ 9e477e9567c8e46f05d3a14d979dbf59fbd388dc76a53ebffae07b09920683a4 10356 ros-humble-ros-ign-bridge_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.deb
+Files:
+ 1e0ffff57bd13251362b630c2f21b075 46242 debug optional ros-humble-ros-ign-bridge-dbgsym_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.ddeb
+ 57ba2931ea6ed1e26e325b414fc9e277 17361 misc optional ros-humble-ros-ign-bridge_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.buildinfo
+ 01400eaf015c585dafd7c36d45da676b 10356 misc optional ros-humble-ros-ign-bridge_0.244.9-4-gc44f587-2023.03.07.12.01_amd64.deb

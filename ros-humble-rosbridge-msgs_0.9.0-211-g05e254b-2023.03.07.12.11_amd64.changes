@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-humble-rosbridge-msgs
+Binary: ros-humble-rosbridge-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.0-211-g05e254b-2023.03.07.12.11
+Distribution: jammy
+Urgency: high
+Maintainer: Hans-Joachim Krauch <achim@intermodalics.eu>
+Changed-By: Hans-Joachim Krauch <achim@intermodalics.eu>
+Description:
+ ros-humble-rosbridge-msgs - Package containing message files
+Changes:
+ ros-humble-rosbridge-msgs (0.9.0-211-g05e254b-2023.03.07.12.11) jammy; urgency=high
+Checksums-Sha1:
+ 587f46ba894c305f5d0ecf29e6da3b70d5178296 243068 ros-humble-rosbridge-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.ddeb
+ caf46fc1bcbb5cab7331000e4f7ebd6ee42fb275 12694 ros-humble-rosbridge-msgs_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.buildinfo
+ c3892edf6de06a6b45c7f0dd11e9b50ac39ac820 48278 ros-humble-rosbridge-msgs_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.deb
+Checksums-Sha256:
+ db9a8fc30ae29c45bf34d6da5812627041d87c27b556cc5acc253e11402b4705 243068 ros-humble-rosbridge-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.ddeb
+ 7bf337f49ea5e50afb20ba87200cc479ae634076aff672af28ce645907ed7ecd 12694 ros-humble-rosbridge-msgs_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.buildinfo
+ 43673acdba1fc74e57f1fe2e8ecb0ad48c9fe244e69ef011212a3137838eb3b3 48278 ros-humble-rosbridge-msgs_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.deb
+Files:
+ 4104c0df3b46511d2cd88c4276a0c055 243068 debug optional ros-humble-rosbridge-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.ddeb
+ 612c5609b24179f1583cb1b6d4f8fddf 12694 misc optional ros-humble-rosbridge-msgs_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.buildinfo
+ 05d5f62e646b7882847798e804dcb04b 48278 misc optional ros-humble-rosbridge-msgs_0.9.0-211-g05e254b-2023.03.07.12.11_amd64.deb

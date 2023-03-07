@@ -1,0 +1,45 @@
+Format: 1.8
+Date: Tue, 09 Aug 2022 00:00:00 -0000
+Source: ros-humble-ign-ros2-control
+Binary: ros-humble-ign-ros2-control
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.0-75-g874d0b2-2023.03.07.08.31
+Distribution: jammy
+Urgency: high
+Maintainer: Alejandro Hernández <alejandro@openrobotics.com>
+Changed-By: Alejandro Hernández <alejandro@openrobotics.com>
+Description:
+ ros-humble-ign-ros2-control - Ignition ros2_control package allows to control simulated robots
+Changes:
+ ros-humble-ign-ros2-control (0.4.0-75-g874d0b2-2023.03.07.08.31) jammy; urgency=high
+ .
+   * Fix setting initial values if command interfaces are not defined. (#73 <https://github.com/ros-controls/gz_ros2_control/issues/73>)
+   * activated all hardware by default and improved variable naming (#74 <https://github.com/ros-controls/gz_ros2_control/issues/74>)
+   * Implemented perform_command_mode_switch override in GazeboSystem (#76 <https://github.com/ros-controls/gz_ros2_control/issues/76>)
+   * Remove warnings (#72 <https://github.com/ros-controls/gz_ros2_control/issues/72>)
+   * change component name for ignition (#69 <https://github.com/ros-controls/gz_ros2_control/issues/69>)
+   * Added logic for activating hardware interfaces (#68 <https://github.com/ros-controls/gz_ros2_control/issues/68>)
+   * Merge branch 'foxy' into ahcorde/foxy_to_galactic_27_05_2022
+   * Remove URDF dependency (#56 <https://github.com/ros-controls/gz_ros2_control/issues/56>)
+   * Adapt to ROS 2 Humble
+   * typo in citadel name (#54 <https://github.com/ros-controls/gz_ros2_control/issues/54>)
+   * typo in citadel name (#51 <https://github.com/ros-controls/gz_ros2_control/issues/51>)
+   * ros2_control is now having usings under its namespace. (#43 <https://github.com/ros-controls/gz_ros2_control/issues/43>)
+   * Fix default ign gazebo version Rolling (#45 <https://github.com/ros-controls/gz_ros2_control/issues/45>)
+   * Fix ignition version in package.xml - Rolling (#41 <https://github.com/ros-controls/gz_ros2_control/issues/41>)
+   * Fixed position control (#29 <https://github.com/ros-controls/gz_ros2_control/issues/29>)
+   * Add support for initial_values for hardware interfaces when starting simulation. (#27 <https://github.com/ros-controls/gz_ros2_control/issues/27>)
+   * Contributors: Alejandro Hernández Cordero, Denis Štogl, Guillaume Beuzeboc, Tianyu Li
+Checksums-Sha1:
+ f67c8d2de3250cc4c407503d79835261195f5437 4593272 ros-humble-ign-ros2-control-dbgsym_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.ddeb
+ 41eb41309fef23f8673c398c8ff1a697450a5161 43385 ros-humble-ign-ros2-control_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.buildinfo
+ 7f8c39b7c9da686a99b0256034fac9feebcb5655 221790 ros-humble-ign-ros2-control_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.deb
+Checksums-Sha256:
+ f0fdbedd2814e699259a040c96b23cbae42062e60b571dc8926706539d0219f7 4593272 ros-humble-ign-ros2-control-dbgsym_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.ddeb
+ e1090bc4519667b7c7c0043b82554d639c48c3def75a1749cdd088338ac7ad77 43385 ros-humble-ign-ros2-control_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.buildinfo
+ 976a42f2b81dd512dba8d5bf411ea8a2e304fa0c20403adfe578e16566fb9a25 221790 ros-humble-ign-ros2-control_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.deb
+Files:
+ cd31cc0152c5c7632eeb2c7826e9285b 4593272 debug optional ros-humble-ign-ros2-control-dbgsym_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.ddeb
+ 44c7401b2755c18c1dea92657ac15661 43385 misc optional ros-humble-ign-ros2-control_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.buildinfo
+ 5ac45d5d07120da5319a3198f97ba7c0 221790 misc optional ros-humble-ign-ros2-control_0.4.0-75-g874d0b2-2023.03.07.08.31_amd64.deb

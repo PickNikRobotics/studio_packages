@@ -1,0 +1,72 @@
+Format: 1.8
+Date: Sat, 25 Jun 2022 00:00:00 -0000
+Source: ros-humble-robot-calibration
+Binary: ros-humble-robot-calibration
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.8.0-27-ge183f74-2023.03.07.11.19
+Distribution: jammy
+Urgency: high
+Maintainer: Michael Ferguson <mike@vanadiumlabs.com>
+Changed-By: Michael Ferguson <mike@vanadiumlabs.com>
+Description:
+ ros-humble-robot-calibration - Calibrate a Robot
+Changes:
+ ros-humble-robot-calibration (0.8.0-27-ge183f74-2023.03.07.11.19) jammy; urgency=high
+ .
+   * various fixes from on-robot testing (#136 <https://github.com/mikeferguson/robot_calibration/issues/136>)
+     * fix topic names in load_bag
+     * update DepthCameraInfoManager to read proper parameters from camera node
+     * fix path/names for pluginlib portability
+     * better debug messages when capturing
+     * better debug messages from ChainManager
+   * add yaml option for storing capture poses (#135 <https://github.com/mikeferguson/robot_calibration/issues/135>)
+     * load calibration poses from YAML
+     * add test for YAML loading
+     * add porting script to get ROS1 bagfiles converted to YAML file
+   * remove tinyxml from CMake (#134 <https://github.com/mikeferguson/robot_calibration/issues/134>)
+     this is a left over from the XML RPC days
+   * initial ROS2 port of robot_calibration (#133 <https://github.com/mikeferguson/robot_calibration/issues/133>)
+     * port finders to ROS2
+     * port optimization to ROS2
+     * port tests to ROS
+     * reorganize file structure for better clarity around header file usage
+     * update readme
+     Major changes for ROS2:
+     * In ROS1, many of the parameters were an array of complex structures - this does
+     not work well with ROS2 and the declaration of parameters. Instead, we use an array
+     of structure names, and then we can declare namespaced parameters for each of
+     the structures.
+     * chain model has been renamed to chain3d
+   * port robot_calibration_msgs to ROS2, update CI (#131 <https://github.com/mikeferguson/robot_calibration/issues/131>)
+   * enhance alignment (#130 <https://github.com/mikeferguson/robot_calibration/issues/130>)
+     * handle NANs in laser data
+     * add r2_tolerance
+     * add spinOnce so that we can run single threaded
+     * exit loop if shutting down
+   * fix regression in manual calibration (#129 <https://github.com/mikeferguson/robot_calibration/issues/129>)
+   * fix warnings reported on ros.org buildfarm (#128 <https://github.com/mikeferguson/robot_calibration/issues/128>)
+   * improve base calibration alignment (#127 <https://github.com/mikeferguson/robot_calibration/issues/127>)
+     * add feature to align to arbitrary angle
+     * parameterize things, including verbose
+   * refactor base_calibration into separate class (#126 <https://github.com/mikeferguson/robot_calibration/issues/126>)
+   * major refactor into re-usable components (#125 <https://github.com/mikeferguson/robot_calibration/issues/125>)
+     * add getPosesFromBag function
+     * add captureManager to clean up code and improve re-usability
+     * split out exportResults as a function
+     * for all models, renamed name() to getName(), added getType() function
+     * add getCameraNames() function to optimizer, so that we can:
+     * output camera calibrations for ALL cameras
+   * Contributors: Michael Ferguson
+Checksums-Sha1:
+ ca78304b2c315aa068a25ff4e8e9001245bbf493 31922626 ros-humble-robot-calibration-dbgsym_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.ddeb
+ cb3238f02b4ae7693cb9f06737c4731bdf3d8328 32174 ros-humble-robot-calibration_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.buildinfo
+ a8cddb1dff0ec8bfe8901979810bfed44da4a33b 953946 ros-humble-robot-calibration_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.deb
+Checksums-Sha256:
+ 8a898c48b69c72a28cfb881bf96189cafee6aef168ff60ca9ef69ddb3d943a6f 31922626 ros-humble-robot-calibration-dbgsym_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.ddeb
+ 753b353e813003d16ce35fe509938668de063837c0fd3b9e0d25399364d8cfa4 32174 ros-humble-robot-calibration_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.buildinfo
+ 95beef88a402f3089a7e2656b34e6541618420e7d177fba6ba3f2ebdd888d306 953946 ros-humble-robot-calibration_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.deb
+Files:
+ 2091b83e1e5abfbc82bc12f51befd1a5 31922626 debug optional ros-humble-robot-calibration-dbgsym_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.ddeb
+ 09b660681c60514f088ac3b241762691 32174 misc optional ros-humble-robot-calibration_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.buildinfo
+ e4d79f8b7d71d6df1fb299b99dc944b2 953946 misc optional ros-humble-robot-calibration_0.8.0-27-ge183f74-2023.03.07.11.19_amd64.deb

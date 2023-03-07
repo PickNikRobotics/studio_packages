@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-force-torque-sensor-broadcaster
+Binary: ros-humble-force-torque-sensor-broadcaster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.08.22
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-force-torque-sensor-broadcaster - Controller to publish state of force-torque sensors.
+Changes:
+ ros-humble-force-torque-sensor-broadcaster (2.13.0-8-g61fa02a-2023.03.07.08.22) jammy; urgency=high
+Checksums-Sha1:
+ fdb3611e6f4dfd2272003176d5e9dcd9f6e75957 935818 ros-humble-force-torque-sensor-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.ddeb
+ e0077f85d5c30a531af9f357014c81563257dff2 17655 ros-humble-force-torque-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.buildinfo
+ 42c78fad08bad728b2d8fb6ceae6f479e8c0f16f 71816 ros-humble-force-torque-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.deb
+Checksums-Sha256:
+ caea3d066a61532d69d626b3ae04a19c4043038d815c1ee09434da3a9a221a2c 935818 ros-humble-force-torque-sensor-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.ddeb
+ e5c81a4ab434b983ea2af089f720cf303f5619a843b54227d5df0d307c56d369 17655 ros-humble-force-torque-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.buildinfo
+ 9e20daac5cf77a530e03e8957ffb3fd0bf5708ce2159b305f3250b4d6e879b81 71816 ros-humble-force-torque-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.deb
+Files:
+ c39deff73567d436d5335a67eeb26dfb 935818 debug optional ros-humble-force-torque-sensor-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.ddeb
+ 41cab993a05dc74883c297360a324a95 17655 misc optional ros-humble-force-torque-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.buildinfo
+ 1bc9abb1e3a31f040dec61603264fc74 71816 misc optional ros-humble-force-torque-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.22_amd64.deb

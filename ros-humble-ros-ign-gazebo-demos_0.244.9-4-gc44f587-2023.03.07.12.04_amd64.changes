@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-ign-gazebo-demos
+Binary: ros-humble-ros-ign-gazebo-demos
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.12.04
+Distribution: jammy
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-humble-ros-ign-gazebo-demos - Shim package to redirect to ros_gz_sim_demos.
+Changes:
+ ros-humble-ros-ign-gazebo-demos (0.244.9-4-gc44f587-2023.03.07.12.04) jammy; urgency=high
+Checksums-Sha1:
+ 632554ba5b78196eddfdad095780500d4b4e7b36 10866 ros-humble-ros-ign-gazebo-demos_0.244.9-4-gc44f587-2023.03.07.12.04_amd64.buildinfo
+ 175ebb618f705787ac5cdd72207e04c2a755011f 6548 ros-humble-ros-ign-gazebo-demos_0.244.9-4-gc44f587-2023.03.07.12.04_amd64.deb
+Checksums-Sha256:
+ 3296d7ffcd920c7f4c844c09ca1f32d07d186bb3a4e3bedca3d9749c8362a0bb 10866 ros-humble-ros-ign-gazebo-demos_0.244.9-4-gc44f587-2023.03.07.12.04_amd64.buildinfo
+ 8a72d94a6f7e26d13ad3dd93bc384fff0357c279f90312f26576c7b4f827e665 6548 ros-humble-ros-ign-gazebo-demos_0.244.9-4-gc44f587-2023.03.07.12.04_amd64.deb
+Files:
+ 22022be68e5311a7d7fa16260ab5c28a 10866 misc optional ros-humble-ros-ign-gazebo-demos_0.244.9-4-gc44f587-2023.03.07.12.04_amd64.buildinfo
+ 777b9ba390ac48fe4d039bfcf8f60513 6548 misc optional ros-humble-ros-ign-gazebo-demos_0.244.9-4-gc44f587-2023.03.07.12.04_amd64.deb

@@ -1,0 +1,35 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-visualization
+Binary: ros-humble-moveit-ros-visualization
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-1-g807a2ba54-2023.03.07.10.11
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-visualization - Components of MoveIt that offer visualization
+Changes:
+ ros-humble-moveit-ros-visualization (2.6.0-1-g807a2ba54-2023.03.07.10.11) jammy; urgency=high
+ .
+   * Check valid interactive marker pointer before trying to update pose (#1581 <https://github.com/ros-planning/moveit2/issues/1581>)
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Use pragma once as header include guard (#1525 <https://github.com/ros-planning/moveit2/issues/1525>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Contributors: J. Javan, Robert Haschke, Sebastian Castro, Sebastian Jahr, Vatan Aksoy Tezer
+Checksums-Sha1:
+ 3d50a8be7ac1351e0776191468606be2442e4171 41636220 ros-humble-moveit-ros-visualization-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.ddeb
+ eb35aea29ead12444f11145d0bfc25712bfede93 34010 ros-humble-moveit-ros-visualization_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.buildinfo
+ 00efad08c97c2eaf4e785c9009cb1ea59647329b 715036 ros-humble-moveit-ros-visualization_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.deb
+Checksums-Sha256:
+ 82cfa51f7fe25ac31fb89defb2b919a3920fff2ea4d15bfc44dff1016561c0f7 41636220 ros-humble-moveit-ros-visualization-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.ddeb
+ 1df7d1fa8b351b595fccfb4856ffc0a68e7ce761e06c678e488d9cb328e626e0 34010 ros-humble-moveit-ros-visualization_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.buildinfo
+ 80991ac0d7798a0a65a94f660d77e0a9e2d8978f119a9515d682bd33fac9c0fc 715036 ros-humble-moveit-ros-visualization_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.deb
+Files:
+ f95603d0b27b6edc009cf8cd47622787 41636220 debug optional ros-humble-moveit-ros-visualization-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.ddeb
+ fd33915a8dfeadebf640e7a3ef1ace39 34010 misc optional ros-humble-moveit-ros-visualization_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.buildinfo
+ 2a00609550cbae47ecdfe6b1f5054cd2 715036 misc optional ros-humble-moveit-ros-visualization_2.6.0-1-g807a2ba54-2023.03.07.10.11_amd64.deb

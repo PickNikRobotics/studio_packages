@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Tue, 13 Sep 2022 00:00:00 -0000
+Source: ros-humble-realsense2-description
+Binary: ros-humble-realsense2-description
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 4.51.1-66-g4073f15-2023.03.07.11.16
+Distribution: jammy
+Urgency: high
+Maintainer: LibRealSense ROS Team <librs.ros@intel.com>
+Changed-By: LibRealSense ROS Team <librs.ros@intel.com>
+Description:
+ ros-humble-realsense2-description - RealSense description package for Intel 3D D400 cameras
+Changes:
+ ros-humble-realsense2-description (4.51.1-66-g4073f15-2023.03.07.11.16) jammy; urgency=high
+ .
+   * Add copyright and license to all ROS2-beta source files
+   * Contributors: SamerKhshiboun
+Checksums-Sha1:
+ 7d88e72f39763869794231710674f2d31dc770f8 15942 ros-humble-realsense2-description_4.51.1-66-g4073f15-2023.03.07.11.16_amd64.buildinfo
+ db145179dc5f0e0ae56999b8b110790300cea7c1 11062580 ros-humble-realsense2-description_4.51.1-66-g4073f15-2023.03.07.11.16_amd64.deb
+Checksums-Sha256:
+ 862e566edc6f9f7abf6354355127be566fabcf619e72445497f3f983921d30dc 15942 ros-humble-realsense2-description_4.51.1-66-g4073f15-2023.03.07.11.16_amd64.buildinfo
+ 422249cb0ac6d3f1af4a71d3533b9150e18bd13b23b999942b493c19ae51f118 11062580 ros-humble-realsense2-description_4.51.1-66-g4073f15-2023.03.07.11.16_amd64.deb
+Files:
+ 900f745a82a138b26ec09f39cce7cfe4 15942 misc optional ros-humble-realsense2-description_4.51.1-66-g4073f15-2023.03.07.11.16_amd64.buildinfo
+ d704c27ed730274804b88e6bbdc5f2ce 11062580 misc optional ros-humble-realsense2-description_4.51.1-66-g4073f15-2023.03.07.11.16_amd64.deb

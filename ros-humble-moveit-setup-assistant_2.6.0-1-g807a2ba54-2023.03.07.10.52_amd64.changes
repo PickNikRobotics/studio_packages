@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-assistant
+Binary: ros-humble-moveit-setup-assistant
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-1-g807a2ba54-2023.03.07.10.52
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-setup-assistant - Generates a configuration package that makes it easy to use MoveI
+Changes:
+ ros-humble-moveit-setup-assistant (2.6.0-1-g807a2ba54-2023.03.07.10.52) jammy; urgency=high
+ .
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Contributors: Sebastian Jahr
+Checksums-Sha1:
+ 2c296f8187e5e4c8e49b905336d3380370159772 7372764 ros-humble-moveit-setup-assistant-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.ddeb
+ 2ba92c191856409d5fbdaf500e92705b076c07bf 34432 ros-humble-moveit-setup-assistant_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.buildinfo
+ 1ee14d4fdc6846c87dc15d1be8921997f6c5acd3 291250 ros-humble-moveit-setup-assistant_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.deb
+Checksums-Sha256:
+ c214b117372b7b1cbb2aac4b8288bcae27359433ff78b5674a32cab1544468d4 7372764 ros-humble-moveit-setup-assistant-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.ddeb
+ 1434461928cfc4014b3070aa68aa9dbaeb0b7485d15875724f2c64b1eb358b1a 34432 ros-humble-moveit-setup-assistant_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.buildinfo
+ 79be792cb1f7e853866b9f3c5f0630037f4ac46cdce9da61c8808aef4431ec8a 291250 ros-humble-moveit-setup-assistant_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.deb
+Files:
+ 8d3650ccdc236f2b1a92cdb3f77ddf97 7372764 debug optional ros-humble-moveit-setup-assistant-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.ddeb
+ 35f337c1f186dbd41aed0ac24001b180 34432 misc optional ros-humble-moveit-setup-assistant_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.buildinfo
+ 0d76ac20e0f98238be9ff8f09c164dca 291250 misc optional ros-humble-moveit-setup-assistant_2.6.0-1-g807a2ba54-2023.03.07.10.52_amd64.deb

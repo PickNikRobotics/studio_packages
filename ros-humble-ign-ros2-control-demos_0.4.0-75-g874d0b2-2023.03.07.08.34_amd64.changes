@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Tue, 09 Aug 2022 00:00:00 -0000
+Source: ros-humble-ign-ros2-control-demos
+Binary: ros-humble-ign-ros2-control-demos
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.4.0-75-g874d0b2-2023.03.07.08.34
+Distribution: jammy
+Urgency: high
+Maintainer: Alejandro Hernandez <ahcorde@osrfoundation.org>
+Changed-By: Alejandro Hernandez <ahcorde@osrfoundation.org>
+Description:
+ ros-humble-ign-ros2-control-demos - ign_ros2_control_demos
+Changes:
+ ros-humble-ign-ros2-control-demos (0.4.0-75-g874d0b2-2023.03.07.08.34) jammy; urgency=high
+ .
+   * Fix setting initial values if command interfaces are not defined. (#73 <https://github.com/ros-controls/gz_ros2_control/issues/73>)
+   * fix demo launch (#75 <https://github.com/ros-controls/gz_ros2_control/issues/75>)
+   * Adjust URLs (#65 <https://github.com/ros-controls/gz_ros2_control/issues/65>)
+   * ign_ros2_control_demos: Install urdf dir (#61 <https://github.com/ros-controls/gz_ros2_control/issues/61>)
+   * Remove URDF dependency (#56 <https://github.com/ros-controls/gz_ros2_control/issues/56>)
+   * Use Ubuntu Jammy in CI (#47 <https://github.com/ros-controls/gz_ros2_control/issues/47>)
+   * Add support for initial_values for hardware interfaces when starting simulation. (#27 <https://github.com/ros-controls/gz_ros2_control/issues/27>)
+   * Contributors: Alejandro Hernández Cordero, Andrej Orsula, Bence Magyar, Denis Štogl, Maciej Bednarczyk, ahcorde
+Checksums-Sha1:
+ bcad0ec567d5f09fbf737759329046c1f0575709 4056216 ros-humble-ign-ros2-control-demos-dbgsym_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.ddeb
+ c286de2beaca51803f1d50673647e96c28b3e7c1 16464 ros-humble-ign-ros2-control-demos_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.buildinfo
+ 3da7bb5eea31a3fff040d6dea087eff631da23b4 113642 ros-humble-ign-ros2-control-demos_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.deb
+Checksums-Sha256:
+ 699b9c12a5aa9ed8eb307aa236e544fc118e75557a3f70a216e7b1f2c21083b5 4056216 ros-humble-ign-ros2-control-demos-dbgsym_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.ddeb
+ 564cb05374ff84ec2223ee175226805a23ac5f72db90845b558c34160a71efa3 16464 ros-humble-ign-ros2-control-demos_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.buildinfo
+ 4a6c8550a232f484597c1bbe200dc0cdd3d6a930068e420362f5b1a175f2e00e 113642 ros-humble-ign-ros2-control-demos_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.deb
+Files:
+ 3e626e9590cd4ec029d294117e8a9cc3 4056216 debug optional ros-humble-ign-ros2-control-demos-dbgsym_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.ddeb
+ e5e622b8a3e4c238ae606020ede5cda6 16464 misc optional ros-humble-ign-ros2-control-demos_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.buildinfo
+ 26ff9250884026918826b9167a2ba198 113642 misc optional ros-humble-ign-ros2-control-demos_0.4.0-75-g874d0b2-2023.03.07.08.34_amd64.deb

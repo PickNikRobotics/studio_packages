@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-humble-rosapi-msgs
+Binary: ros-humble-rosapi-msgs
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.0-211-g05e254b-2023.03.07.12.09
+Distribution: jammy
+Urgency: high
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Changed-By: Jihoon Lee <jihoonlee.in@gmail.com>
+Description:
+ ros-humble-rosapi-msgs - Provides service calls for getting ros meta-information, like lis
+Changes:
+ ros-humble-rosapi-msgs (0.9.0-211-g05e254b-2023.03.07.12.09) jammy; urgency=high
+Checksums-Sha1:
+ b275c11046e3d520db3c610385b291bc5192617c 2463548 ros-humble-rosapi-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.ddeb
+ bb44cd26dbe55a3ea6c796f24fc4c1c9bdf08d7a 12673 ros-humble-rosapi-msgs_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.buildinfo
+ f40dd5f7a04b87690da605f8a9bb6681d321179b 292116 ros-humble-rosapi-msgs_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.deb
+Checksums-Sha256:
+ 953eb185a552b00626867297d8493df86f94c3c429fa663a7cf5400058da3fd5 2463548 ros-humble-rosapi-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.ddeb
+ c9b30c9bdf3955b6bc995764f1a4afffbcc1b5392b8a653f59db4cf46b0d7c5a 12673 ros-humble-rosapi-msgs_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.buildinfo
+ 219b1564788f2cd496dada1f623c3b55baf8806b716f5de9ea60ead6494ffa62 292116 ros-humble-rosapi-msgs_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.deb
+Files:
+ bd4b32084e453d3c5f51d762af0e475c 2463548 debug optional ros-humble-rosapi-msgs-dbgsym_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.ddeb
+ 07c2b9984ec4d4e8701ecd88e81de250 12673 misc optional ros-humble-rosapi-msgs_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.buildinfo
+ b81d2e76fee65fabc55cbb339e45882d 292116 misc optional ros-humble-rosapi-msgs_0.9.0-211-g05e254b-2023.03.07.12.09_amd64.deb

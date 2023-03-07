@@ -1,0 +1,36 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-joint-trajectory-controller
+Binary: ros-humble-joint-trajectory-controller
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.08.39
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-joint-trajectory-controller - Controller for executing joint-space trajectories on a group of j
+Changes:
+ ros-humble-joint-trajectory-controller (2.13.0-8-g61fa02a-2023.03.07.08.39) jammy; urgency=high
+ .
+   * Generate Parameter Library for Joint Trajectory Controller (#384 <https://github.com/ros-controls/ros2_controllers/issues/384>)
+   * Fix rates in JTC userdoc.rst (#433 <https://github.com/ros-controls/ros2_controllers/issues/433>)
+   * Fix for high CPU usage by JTC in gzserver (#428 <https://github.com/ros-controls/ros2_controllers/issues/428>)
+     * Change type cast wall timer period from second to nanoseconds.
+     create_wall_timer() expects delay in nanoseconds (duration object) however the type cast to seconds will result in 0 (if duration is less than 1s) and thus causing timer to be fired non stop resulting in very high CPU usage.
+     * Reset smartpointer so that create_wall_timer() call can destroy previous trajectory timer.
+     node->create_wall_timer() first removes timers associated with expired smartpointers before servicing current request.  The JTC timer pointer gets overwrite only after the create_wall_timer() returns and thus not able to remove previous trajectory timer resulting in upto two timers running for JTC during trajectory execution.  Althougth the previous timer does nothing but still get fired.
+   * Contributors: Arshad Mehmood, Borong Yuan, Tyler Weaver, Andy Zelenak, Bence Magyar, Denis Štogl
+Checksums-Sha1:
+ a604ed86083abd89fdc360dc5fd2fad4c8c140ff 3536920 ros-humble-joint-trajectory-controller-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.ddeb
+ 433f9d3c5c3996088a307573b5baa503797ef354 17741 ros-humble-joint-trajectory-controller_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.buildinfo
+ 552612b3d58644eb6960690533f0c2e41673160e 213466 ros-humble-joint-trajectory-controller_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.deb
+Checksums-Sha256:
+ 67858715fca4f2b9dd0a0dae415ac909c0d9fe840e21ad0363191428d6d47bd3 3536920 ros-humble-joint-trajectory-controller-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.ddeb
+ c6b224305b16c1ec37034d93a22d98f3066da8b1dc6b1b036e460f1e085c11eb 17741 ros-humble-joint-trajectory-controller_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.buildinfo
+ 675919b606a20fe12619111fea16edb9b12eabd9bdc8d58a2f25f552809e2e53 213466 ros-humble-joint-trajectory-controller_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.deb
+Files:
+ 7640e1275f472b265454aef262737399 3536920 debug optional ros-humble-joint-trajectory-controller-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.ddeb
+ 7daa5bc42cddd94b617cebe466a23a55 17741 misc optional ros-humble-joint-trajectory-controller_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.buildinfo
+ 474de8aee14c4701a3b5b0f35a2b8130 213466 misc optional ros-humble-joint-trajectory-controller_2.13.0-8-g61fa02a-2023.03.07.08.39_amd64.deb

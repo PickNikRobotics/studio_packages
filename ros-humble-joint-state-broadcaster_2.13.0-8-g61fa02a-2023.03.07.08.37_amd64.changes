@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-joint-state-broadcaster
+Binary: ros-humble-joint-state-broadcaster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.08.37
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-joint-state-broadcaster - Broadcaster to publish joint state
+Changes:
+ ros-humble-joint-state-broadcaster (2.13.0-8-g61fa02a-2023.03.07.08.37) jammy; urgency=high
+ .
+   * Generate parameters for Joint State Broadcaster (#401 <https://github.com/ros-controls/ros2_controllers/issues/401>)
+   * Fix undeclared and wrong parameters in controllers. (#438 <https://github.com/ros-controls/ros2_controllers/issues/438>)
+     * Add missing parameter declaration in the joint state broadcaster.
+     * Fix unsensible test in IMU Sensor Broadcaster.
+   * [JointStateBroadcaster] Reset internal variables to avoid duplication of joints (#431 <https://github.com/ros-controls/ros2_controllers/issues/431>)
+   * Contributors: Denis Štogl, Gilmar Correia, Tyler Weaver, Bence Magyar
+Checksums-Sha1:
+ ec7422b810237ebd9c25ad532845a99b0b565654 1221454 ros-humble-joint-state-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.ddeb
+ 2707aef44ac45eb8030ad5c32e6584cbb54c7822 17586 ros-humble-joint-state-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.buildinfo
+ 7edd5394f88c2b53f5d68922fbefead7df0366d2 86894 ros-humble-joint-state-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.deb
+Checksums-Sha256:
+ 29eef925745c8841df5a60e24c3fb0dbbcf70bcc9ef6b3d75853dd2c33fa7a06 1221454 ros-humble-joint-state-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.ddeb
+ ec639a663d436c0de76e1fac725e0848bf5da54447f0ebdf797baf66b5dc00f0 17586 ros-humble-joint-state-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.buildinfo
+ e53ea03eddb0fd77b333795415f0d361b0cfde4bbedf97df6cf2f82eff885110 86894 ros-humble-joint-state-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.deb
+Files:
+ abc4dab45bcc312c6052bead96bb074f 1221454 debug optional ros-humble-joint-state-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.ddeb
+ 6b79f1b06185a24150c9ce7b0f486c07 17586 misc optional ros-humble-joint-state-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.buildinfo
+ b5b5f4fdfc9edb47b8182515c9bfe5af 86894 misc optional ros-humble-joint-state-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.37_amd64.deb

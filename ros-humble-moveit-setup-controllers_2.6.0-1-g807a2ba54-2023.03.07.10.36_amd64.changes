@@ -1,0 +1,40 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-setup-controllers
+Binary: ros-humble-moveit-setup-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-1-g807a2ba54-2023.03.07.10.36
+Distribution: jammy
+Urgency: high
+Maintainer: David V. Lu!! <davidvlu@gmail.com>
+Changed-By: David V. Lu!! <davidvlu@gmail.com>
+Description:
+ ros-humble-moveit-setup-controllers - MoveIt Setup Steps for ROS 2 Control
+Changes:
+ ros-humble-moveit-setup-controllers (2.6.0-1-g807a2ba54-2023.03.07.10.36) jammy; urgency=high
+ .
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Cleanup cmake files
+     - Replace ament_export_libraries() -> ament_export_targets(HAS_LIBRARY_TARGET)
+     - Replace ament_export_include_directories() -> INCLUDES DESTINATION include
+     See https://docs.ros.org/en/foxy/How-To-Guides/Ament-CMake-Documentation.html#building-a-library
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * MSA: write the default controller namespace (#1515 <https://github.com/ros-planning/moveit2/issues/1515>)
+     * Write the default controller namespace
+     * Check for a sane controller type
+     * Revert the check for FollowJointTrajectory type
+   * Contributors: AndyZe, Robert Haschke, Sebastian Jahr
+Checksums-Sha1:
+ c8bba9abfca2e3f9019ac118d91d3fb2b19b2d3f 11097576 ros-humble-moveit-setup-controllers-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.ddeb
+ 8942af1f90ce236f7a733b1ed899a11cf8f55af5 34538 ros-humble-moveit-setup-controllers_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.buildinfo
+ 623aec3ebce33f5d487e7a0786671152694bcf57 158982 ros-humble-moveit-setup-controllers_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.deb
+Checksums-Sha256:
+ 597938626d068f8cc0a6f3f4f2d2ecbc82d3b9f5117638ea2fe1e0f7fbbd2636 11097576 ros-humble-moveit-setup-controllers-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.ddeb
+ 6a8da074538f478f0779a0e120fb338b2e5c11eeca667505ddeee20f831a048b 34538 ros-humble-moveit-setup-controllers_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.buildinfo
+ ce84863dcbb9b05618111ecc0a50941b3f864fbf67eba479275c7af92fef7a5d 158982 ros-humble-moveit-setup-controllers_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.deb
+Files:
+ 6f7c8ea32d2feccbdcf565612ab0f181 11097576 debug optional ros-humble-moveit-setup-controllers-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.ddeb
+ fe559844483c76270923d63aa1ab569e 34538 misc optional ros-humble-moveit-setup-controllers_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.buildinfo
+ bf0222df4db7e12f1bc179bc17c675f7 158982 misc optional ros-humble-moveit-setup-controllers_2.6.0-1-g807a2ba54-2023.03.07.10.36_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-ros2-controllers-test-nodes
+Binary: ros-humble-ros2-controllers-test-nodes
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.11.28
+Distribution: jammy
+Urgency: high
+Maintainer: Denis Štogl <denis@stoglrobotics.de>
+Changed-By: Denis Štogl <denis@stoglrobotics.de>
+Description:
+ ros-humble-ros2-controllers-test-nodes - Demo nodes for showing and testing functionalities of the ros2_co
+Changes:
+ ros-humble-ros2-controllers-test-nodes (2.13.0-8-g61fa02a-2023.03.07.11.28) jammy; urgency=high
+ .
+   * Enable definition of all fields in JointTrajectory message when using test node. (#389 <https://github.com/ros-controls/ros2_controllers/issues/389>)
+   * Contributors: Denis Štogl
+Checksums-Sha1:
+ 8d2c2ac0759719967c02c45ec4c67261882140f7 14215 ros-humble-ros2-controllers-test-nodes_2.13.0-8-g61fa02a-2023.03.07.11.28_amd64.buildinfo
+ ca67168fcf1c62ec23bd069546b409c70eb346b8 9350 ros-humble-ros2-controllers-test-nodes_2.13.0-8-g61fa02a-2023.03.07.11.28_amd64.deb
+Checksums-Sha256:
+ 1b217557417ac48270158422afc32d22bd77a46f6141e6883e013a9fbad3f584 14215 ros-humble-ros2-controllers-test-nodes_2.13.0-8-g61fa02a-2023.03.07.11.28_amd64.buildinfo
+ 847f60e282cfc647e3b560a4b8fd6644f45d5455abd98a1b682dcf77c4aca435 9350 ros-humble-ros2-controllers-test-nodes_2.13.0-8-g61fa02a-2023.03.07.11.28_amd64.deb
+Files:
+ 4944f232bc15b95f49a99c8c4e978b6b 14215 misc optional ros-humble-ros2-controllers-test-nodes_2.13.0-8-g61fa02a-2023.03.07.11.28_amd64.buildinfo
+ f70289645e0627d9e0c7e6f777515fe3 9350 misc optional ros-humble-ros2-controllers-test-nodes_2.13.0-8-g61fa02a-2023.03.07.11.28_amd64.deb

@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-imu-sensor-broadcaster
+Binary: ros-humble-imu-sensor-broadcaster
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.08.35
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-imu-sensor-broadcaster - Controller to publish readings of IMU sensors.
+Changes:
+ ros-humble-imu-sensor-broadcaster (2.13.0-8-g61fa02a-2023.03.07.08.35) jammy; urgency=high
+ .
+   * Fix undeclared and wrong parameters in controllers. (#438 <https://github.com/ros-controls/ros2_controllers/issues/438>)
+     * Add missing parameter declaration in the joint state broadcaster.
+     * Fix unsensible test in IMU Sensor Broadcaster.
+   * Contributors: Denis Štogl
+Checksums-Sha1:
+ 6bbfd50615e9b5f8fe3011a07bc26c8377e6ecf6 859548 ros-humble-imu-sensor-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.ddeb
+ 2c651d7212d2dc6d1ab0a3b79ae9e5c81bc6e6ff 18421 ros-humble-imu-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.buildinfo
+ 8ea182deaf4c4429d7b79d459f478123bd39244d 63830 ros-humble-imu-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.deb
+Checksums-Sha256:
+ 727f636ad79a994dde205992b2826bb358bcbaf5f136c9043e8aa6607ce3d99b 859548 ros-humble-imu-sensor-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.ddeb
+ 51b376b2294e8df64841f0d0ae92b65084ed2efc3f2d1b8d15f9a6462d9e789a 18421 ros-humble-imu-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.buildinfo
+ 8b4cd434c83805d116fd25a000209587210992a38378a1207cdfe773419f01c3 63830 ros-humble-imu-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.deb
+Files:
+ 51f1b8d5949bfe83a4e3405022cdac07 859548 debug optional ros-humble-imu-sensor-broadcaster-dbgsym_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.ddeb
+ 32c651d190fdd302620d62e01a3735a6 18421 misc optional ros-humble-imu-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.buildinfo
+ 770820a90e6d2fb42ebe658d51386f9b 63830 misc optional ros-humble-imu-sensor-broadcaster_2.13.0-8-g61fa02a-2023.03.07.08.35_amd64.deb

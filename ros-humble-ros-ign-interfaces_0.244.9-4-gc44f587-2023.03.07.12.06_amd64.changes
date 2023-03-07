@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Thu, 03 Nov 2022 00:00:00 -0000
+Source: ros-humble-ros-ign-interfaces
+Binary: ros-humble-ros-ign-interfaces
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.244.9-4-gc44f587-2023.03.07.12.06
+Distribution: jammy
+Urgency: high
+Maintainer: Brandon Ong <brandon@openrobotics.org>
+Changed-By: Brandon Ong <brandon@openrobotics.org>
+Description:
+ ros-humble-ros-ign-interfaces - Shim package to redirect to ros_gz_interfaces.
+Changes:
+ ros-humble-ros-ign-interfaces (0.244.9-4-gc44f587-2023.03.07.12.06) jammy; urgency=high
+Checksums-Sha1:
+ 74d6c4f1595236fc217536c19c8c798c8d4978de 1457296 ros-humble-ros-ign-interfaces-dbgsym_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.ddeb
+ 9c5bc2b9ec5255ddcc43bc2d257773a0d17acb28 14622 ros-humble-ros-ign-interfaces_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.buildinfo
+ c7a4c621fb0328b839ba06f5be1976c9accdf29d 192412 ros-humble-ros-ign-interfaces_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.deb
+Checksums-Sha256:
+ ef0ef53b8259f6ecac9eb8f893c2e969de9e896d9164163f9f449fdba58f1ebc 1457296 ros-humble-ros-ign-interfaces-dbgsym_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.ddeb
+ ffcff7b461a2c77147f8cf06c353c10779eab6e5e9b9e31bb31a9b31b15f4ca6 14622 ros-humble-ros-ign-interfaces_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.buildinfo
+ 4884afa88955709b1af8a9c121ebe1a0fe836d094529932c853029ad9e5f85fd 192412 ros-humble-ros-ign-interfaces_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.deb
+Files:
+ 8ed4de7028447e9f5ea95822b3d1217a 1457296 debug optional ros-humble-ros-ign-interfaces-dbgsym_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.ddeb
+ d087693e0693032a6e8a0847b4ae7e2b 14622 misc optional ros-humble-ros-ign-interfaces_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.buildinfo
+ 0912e1f7f8526936395b68042298f745 192412 misc optional ros-humble-ros-ign-interfaces_0.244.9-4-gc44f587-2023.03.07.12.06_amd64.deb

@@ -1,0 +1,27 @@
+Format: 1.8
+Date: Wed, 05 Oct 2022 00:00:00 -0000
+Source: ros-humble-velocity-controllers
+Binary: ros-humble-velocity-controllers
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.13.0-8-g61fa02a-2023.03.07.12.49
+Distribution: jammy
+Urgency: high
+Maintainer: Bence Magyar <bence.magyar.robotics@gmail.com>
+Changed-By: Bence Magyar <bence.magyar.robotics@gmail.com>
+Description:
+ ros-humble-velocity-controllers - Generic controller for forwarding commands.
+Changes:
+ ros-humble-velocity-controllers (2.13.0-8-g61fa02a-2023.03.07.12.49) jammy; urgency=high
+Checksums-Sha1:
+ 44cd0b9f44140b2333a07675c84b7059e5c8c6f3 257200 ros-humble-velocity-controllers-dbgsym_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.ddeb
+ bc6fbabb64ba0db984fddb30247c4337ffb394ba 17630 ros-humble-velocity-controllers_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.buildinfo
+ ac83384dfddf5d60d6ef91f3ac8a4298b6d66971 19926 ros-humble-velocity-controllers_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.deb
+Checksums-Sha256:
+ 45a0b1f1b0a1806c42549e7b0173019a60fb27abe16c270ade55f95df59ba44e 257200 ros-humble-velocity-controllers-dbgsym_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.ddeb
+ d66667811b97680abd561e81969734f82c76ebf6f51126f4c221d2bb30fafbfc 17630 ros-humble-velocity-controllers_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.buildinfo
+ d623dcf638bd99903ed0511ecae6bbfe71608cc8ce85bc923614b5d680a39fcf 19926 ros-humble-velocity-controllers_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.deb
+Files:
+ 9c631c3a5165e4db65159a50b7521746 257200 debug optional ros-humble-velocity-controllers-dbgsym_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.ddeb
+ 4aaf9b3a2bca48cc74799ace38e89869 17630 misc optional ros-humble-velocity-controllers_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.buildinfo
+ 27c41ebee4b75db7631673baae632659 19926 misc optional ros-humble-velocity-controllers_2.13.0-8-g61fa02a-2023.03.07.12.49_amd64.deb

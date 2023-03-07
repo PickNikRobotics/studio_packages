@@ -1,0 +1,38 @@
+Format: 1.8
+Date: Tue, 21 Apr 2015 00:00:00 -0000
+Source: ros-humble-serial
+Binary: ros-humble-serial
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 1.2.1-42-gd8d1606-2023.03.07.12.43
+Distribution: jammy
+Urgency: high
+Maintainer: William Woodall <william@osrfoundation.org>
+Changed-By: William Woodall <william@osrfoundation.org>
+Description:
+ ros-humble-serial - Serial is a cross-platform, simple to use library for using seria
+Changes:
+ ros-humble-serial (1.2.1-42-gd8d1606-2023.03.07.12.43) jammy; urgency=high
+ .
+   * Removed the use of a C++11 feature for compatibility with older browsers.
+   * Fixed an issue with cross compiling with mingw on Windows.
+   * Restructured Visual Studio project layout.
+   * Added include of ``#include <AvailabilityMacros.h>`` on OS X (listing of ports).
+   * Fixed MXE for the listing of ports on Windows.
+   * Now closes file device if ``reconfigureDevice`` fails (Windows).
+   * Added the MARK/SPACE parity bit option, also made it optional.
+     Adding the enumeration values for MARK and SPACE was the only code change to an API header.
+     It should not affect ABI or API.
+   * Added support for 576000 baud on Linux.
+   * Now releases iterator properly in listing of ports code for OS X.
+   * Fixed the ability to open COM ports over COM10 on Windows.
+   * Fixed up some documentation about exceptions in ``serial.h``.
+Checksums-Sha1:
+ 612087cb5ea3af9570bffc85e90d63ab7f9d37cc 15888 ros-humble-serial_1.2.1-42-gd8d1606-2023.03.07.12.43_amd64.buildinfo
+ 633419e7a38e7c3bc1abb301591d36f9ae64ee26 48842 ros-humble-serial_1.2.1-42-gd8d1606-2023.03.07.12.43_amd64.deb
+Checksums-Sha256:
+ 5072014354e07f4cd6463044676cca3a0258a768a2ee08662698ed9726fc4ca7 15888 ros-humble-serial_1.2.1-42-gd8d1606-2023.03.07.12.43_amd64.buildinfo
+ ab00c2f10b25de412e10e9f78c54d32c718ae3b66c487188b9a9cef6bc92fa79 48842 ros-humble-serial_1.2.1-42-gd8d1606-2023.03.07.12.43_amd64.deb
+Files:
+ cb1c6b1bb39c6f7fa0b5f669c41607a3 15888 misc optional ros-humble-serial_1.2.1-42-gd8d1606-2023.03.07.12.43_amd64.buildinfo
+ 1dd8c3f51a30732ae64317c6016d1130 48842 misc optional ros-humble-serial_1.2.1-42-gd8d1606-2023.03.07.12.43_amd64.deb

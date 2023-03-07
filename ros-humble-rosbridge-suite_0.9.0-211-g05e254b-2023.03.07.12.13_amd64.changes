@@ -1,0 +1,24 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-humble-rosbridge-suite
+Binary: ros-humble-rosbridge-suite
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.0-211-g05e254b-2023.03.07.12.13
+Distribution: jammy
+Urgency: high
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Changed-By: Jihoon Lee <jihoonlee.in@gmail.com>
+Description:
+ ros-humble-rosbridge-suite - Rosbridge provides a JSON API to ROS functionality for non-ROS pr
+Changes:
+ ros-humble-rosbridge-suite (0.9.0-211-g05e254b-2023.03.07.12.13) jammy; urgency=high
+Checksums-Sha1:
+ 888137007facb28adc78142b1e4c7cdb5002dc57 9139 ros-humble-rosbridge-suite_0.9.0-211-g05e254b-2023.03.07.12.13_amd64.buildinfo
+ 59e119a9657fbe0eb0e082ae7fd7f346cd67662f 6594 ros-humble-rosbridge-suite_0.9.0-211-g05e254b-2023.03.07.12.13_amd64.deb
+Checksums-Sha256:
+ fa1b2ec84bfe534f48e68f121877f9020c98db176fc4db0b375b1765577af3ed 9139 ros-humble-rosbridge-suite_0.9.0-211-g05e254b-2023.03.07.12.13_amd64.buildinfo
+ 9f6e07837cdcf09b86b07cf5daef36e027eec84828934f3f82766582784fad80 6594 ros-humble-rosbridge-suite_0.9.0-211-g05e254b-2023.03.07.12.13_amd64.deb
+Files:
+ 758aeedb4b98569a9ce11683a4e4672c 9139 misc optional ros-humble-rosbridge-suite_0.9.0-211-g05e254b-2023.03.07.12.13_amd64.buildinfo
+ acb1b904dba0020f45800be23dc96820 6594 misc optional ros-humble-rosbridge-suite_0.9.0-211-g05e254b-2023.03.07.12.13_amd64.deb

@@ -1,0 +1,276 @@
+behaviortree_cpp_v3:
+  ubuntu:
+  - ros-humble-behaviortree-cpp-v3
+diff_drive_controller:
+  ubuntu:
+  - ros-humble-diff-drive-controller
+force_torque_sensor_broadcaster:
+  ubuntu:
+  - ros-humble-force-torque-sensor-broadcaster
+forward_command_controller:
+  ubuntu:
+  - ros-humble-forward-command-controller
+effort_controllers:
+  ubuntu:
+  - ros-humble-effort-controllers
+fp:
+  ubuntu:
+  - ros-humble-fp
+gripper_controllers:
+  ubuntu:
+  - ros-humble-gripper-controllers
+ign_ros2_control:
+  ubuntu:
+  - ros-humble-ign-ros2-control
+ign_ros2_control_demos:
+  ubuntu:
+  - ros-humble-ign-ros2-control-demos
+imu_sensor_broadcaster:
+  ubuntu:
+  - ros-humble-imu-sensor-broadcaster
+joint_state_broadcaster:
+  ubuntu:
+  - ros-humble-joint-state-broadcaster
+joint_trajectory_controller:
+  ubuntu:
+  - ros-humble-joint-trajectory-controller
+admittance_controller:
+  ubuntu:
+  - ros-humble-admittance-controller
+moveit:
+  ubuntu:
+  - ros-humble-moveit
+moveit_common:
+  ubuntu:
+  - ros-humble-moveit-common
+moveit_configs_utils:
+  ubuntu:
+  - ros-humble-moveit-configs-utils
+moveit_core:
+  ubuntu:
+  - ros-humble-moveit-core
+chomp_motion_planner:
+  ubuntu:
+  - ros-humble-chomp-motion-planner
+moveit_chomp_optimizer_adapter:
+  ubuntu:
+  - ros-humble-moveit-chomp-optimizer-adapter
+moveit_planners:
+  ubuntu:
+  - ros-humble-moveit-planners
+moveit_planners_chomp:
+  ubuntu:
+  - ros-humble-moveit-planners-chomp
+moveit_plugins:
+  ubuntu:
+  - ros-humble-moveit-plugins
+moveit_resources_prbt_ikfast_manipulator_plugin:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-ikfast-manipulator-plugin
+moveit_resources_prbt_moveit_config:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-moveit-config
+moveit_resources_prbt_pg70_support:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-pg70-support
+moveit_resources_prbt_support:
+  ubuntu:
+  - ros-humble-moveit-resources-prbt-support
+moveit_ros:
+  ubuntu:
+  - ros-humble-moveit-ros
+moveit_ros_occupancy_map_monitor:
+  ubuntu:
+  - ros-humble-moveit-ros-occupancy-map-monitor
+moveit_ros_planning:
+  ubuntu:
+  - ros-humble-moveit-ros-planning
+moveit_kinematics:
+  ubuntu:
+  - ros-humble-moveit-kinematics
+moveit_planners_ompl:
+  ubuntu:
+  - ros-humble-moveit-planners-ompl
+moveit_ros_move_group:
+  ubuntu:
+  - ros-humble-moveit-ros-move-group
+moveit_ros_perception:
+  ubuntu:
+  - ros-humble-moveit-ros-perception
+moveit_ros_robot_interaction:
+  ubuntu:
+  - ros-humble-moveit-ros-robot-interaction
+moveit_ros_warehouse:
+  ubuntu:
+  - ros-humble-moveit-ros-warehouse
+moveit_ros_benchmarks:
+  ubuntu:
+  - ros-humble-moveit-ros-benchmarks
+moveit_runtime:
+  ubuntu:
+  - ros-humble-moveit-runtime
+moveit_simple_controller_manager:
+  ubuntu:
+  - ros-humble-moveit-simple-controller-manager
+moveit_ros_control_interface:
+  ubuntu:
+  - ros-humble-moveit-ros-control-interface
+moveit_ros_planning_interface:
+  ubuntu:
+  - ros-humble-moveit-ros-planning-interface
+moveit_hybrid_planning:
+  ubuntu:
+  - ros-humble-moveit-hybrid-planning
+moveit_ros_visualization:
+  ubuntu:
+  - ros-humble-moveit-ros-visualization
+moveit_servo:
+  ubuntu:
+  - ros-humble-moveit-servo
+moveit_setup_framework:
+  ubuntu:
+  - ros-humble-moveit-setup-framework
+moveit_setup_app_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-app-plugins
+moveit_setup_controllers:
+  ubuntu:
+  - ros-humble-moveit-setup-controllers
+moveit_setup_core_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-core-plugins
+moveit_setup_srdf_plugins:
+  ubuntu:
+  - ros-humble-moveit-setup-srdf-plugins
+moveit_setup_assistant:
+  ubuntu:
+  - ros-humble-moveit-setup-assistant
+moveit_task_constructor_msgs:
+  ubuntu:
+  - ros-humble-moveit-task-constructor-msgs
+pilz_industrial_motion_planner_testutils:
+  ubuntu:
+  - ros-humble-pilz-industrial-motion-planner-testutils
+pilz_industrial_motion_planner:
+  ubuntu:
+  - ros-humble-pilz-industrial-motion-planner
+position_controllers:
+  ubuntu:
+  - ros-humble-position-controllers
+realsense2_camera_msgs:
+  ubuntu:
+  - ros-humble-realsense2-camera-msgs
+realsense2_camera:
+  ubuntu:
+  - ros-humble-realsense2-camera
+realsense2_description:
+  ubuntu:
+  - ros-humble-realsense2-description
+robot_calibration_msgs:
+  ubuntu:
+  - ros-humble-robot-calibration-msgs
+robot_calibration:
+  ubuntu:
+  - ros-humble-robot-calibration
+robotiq_controllers:
+  ubuntu:
+  - ros-humble-robotiq-controllers
+ros2_controllers:
+  ubuntu:
+  - ros-humble-ros2-controllers
+ros2_controllers_test_nodes:
+  ubuntu:
+  - ros-humble-ros2-controllers-test-nodes
+ros_gz:
+  ubuntu:
+  - ros-humble-ros-gz
+ros_gz_interfaces:
+  ubuntu:
+  - ros-humble-ros-gz-interfaces
+ros_gz_bridge:
+  ubuntu:
+  - ros-humble-ros-gz-bridge
+ros_gz_image:
+  ubuntu:
+  - ros-humble-ros-gz-image
+ros_gz_sim:
+  ubuntu:
+  - ros-humble-ros-gz-sim
+ros_gz_sim_demos:
+  ubuntu:
+  - ros-humble-ros-gz-sim-demos
+ros_ign:
+  ubuntu:
+  - ros-humble-ros-ign
+ros_ign_bridge:
+  ubuntu:
+  - ros-humble-ros-ign-bridge
+ros_ign_gazebo:
+  ubuntu:
+  - ros-humble-ros-ign-gazebo
+ros_ign_gazebo_demos:
+  ubuntu:
+  - ros-humble-ros-ign-gazebo-demos
+ros_ign_image:
+  ubuntu:
+  - ros-humble-ros-ign-image
+ros_ign_interfaces:
+  ubuntu:
+  - ros-humble-ros-ign-interfaces
+rosapi:
+  ubuntu:
+  - ros-humble-rosapi
+rosapi_msgs:
+  ubuntu:
+  - ros-humble-rosapi-msgs
+rosbridge_msgs:
+  ubuntu:
+  - ros-humble-rosbridge-msgs
+rosbridge_server:
+  ubuntu:
+  - ros-humble-rosbridge-server
+rosbridge_suite:
+  ubuntu:
+  - ros-humble-rosbridge-suite
+rosbridge_test_msgs:
+  ubuntu:
+  - ros-humble-rosbridge-test-msgs
+rosbridge_library:
+  ubuntu:
+  - ros-humble-rosbridge-library
+rqt_joint_trajectory_controller:
+  ubuntu:
+  - ros-humble-rqt-joint-trajectory-controller
+rviz_marker_tools:
+  ubuntu:
+  - ros-humble-rviz-marker-tools
+moveit_task_constructor_core:
+  ubuntu:
+  - ros-humble-moveit-task-constructor-core
+moveit_task_constructor_capabilities:
+  ubuntu:
+  - ros-humble-moveit-task-constructor-capabilities
+moveit_task_constructor_demo:
+  ubuntu:
+  - ros-humble-moveit-task-constructor-demo
+moveit_task_constructor_visualization:
+  ubuntu:
+  - ros-humble-moveit-task-constructor-visualization
+serial:
+  ubuntu:
+  - ros-humble-serial
+robotiq_description:
+  ubuntu:
+  - ros-humble-robotiq-description
+robotiq_driver:
+  ubuntu:
+  - ros-humble-robotiq-driver
+tricycle_controller:
+  ubuntu:
+  - ros-humble-tricycle-controller
+velocity_controllers:
+  ubuntu:
+  - ros-humble-velocity-controllers
+web_video_server:
+  ubuntu:
+  - ros-humble-web-video-server

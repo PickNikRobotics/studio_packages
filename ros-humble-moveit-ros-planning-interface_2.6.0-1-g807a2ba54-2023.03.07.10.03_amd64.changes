@@ -1,0 +1,49 @@
+Format: 1.8
+Date: Thu, 10 Nov 2022 00:00:00 -0000
+Source: ros-humble-moveit-ros-planning-interface
+Binary: ros-humble-moveit-ros-planning-interface
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.6.0-1-g807a2ba54-2023.03.07.10.03
+Distribution: jammy
+Urgency: high
+Maintainer: Henning Kayser <henningkayser@picknik.ai>
+Changed-By: Henning Kayser <henningkayser@picknik.ai>
+Description:
+ ros-humble-moveit-ros-planning-interface - Components of MoveIt that offer simpler interfaces to planning an
+Changes:
+ ros-humble-moveit-ros-planning-interface (2.6.0-1-g807a2ba54-2023.03.07.10.03) jammy; urgency=high
+ .
+   * Log error when named joint state target does not exist (#1580 <https://github.com/ros-planning/moveit2/issues/1580>)
+   * Express Humble/Rolling differences in #if (#1620 <https://github.com/ros-planning/moveit2/issues/1620>)
+   * Fix deprecated declaration usage (#1598 <https://github.com/ros-planning/moveit2/issues/1598>)
+     * Fix type
+     * Suppress warning
+     * Add TODO
+   * Merge PR #1553 <https://github.com/ros-planning/moveit2/issues/1553>: Improve cmake files
+   * Remove callback_executor_.is_spinning()
+   * Use standard exported targets: export_${PROJECT_NAME} -> ${PROJECT_NAME}Targets
+   * Improve CMake usage (#1550 <https://github.com/ros-planning/moveit2/issues/1550>)
+   * Remove __has_include statements (#1481 <https://github.com/ros-planning/moveit2/issues/1481>)
+   * Merge https://github.com/ros-planning/moveit/commit/a63580edd05b01d9480c333645036e5b2b222da9
+   * Fix callback execution in MGI (#1305 <https://github.com/ros-planning/moveit2/issues/1305>)
+     The initial implementation with the private node allowed for concurrent spinning of the same node, producing runtime exceptions. This change removes the need for a private node by letting MGI manage its own CallbackGroup and Executor thread.
+   * Changed 'return false' in plan, move and execute such that MoveItErrorCode is returned (#1266 <https://github.com/ros-planning/moveit2/issues/1266>)
+   * Add and fix dual arm test (#3119 <https://github.com/ros-planning/moveit2/issues/3119>)
+     * Add dual arm test
+     * Fix and simplify UnionConstraintSampler: update joint transforms
+     Co-authored-by: Cristian Beltran <mailto:cristianbehe@gmail.com>
+     Co-authored-by: Robert Haschke <mailto:rhaschke@techfak.uni-bielefeld.de>
+   * Contributors: Abishalini Sivaraman, Henning Kayser, Robert Haschke, Rufus Wong, Sebastian Jahr, Tyler Weaver, Vatan Aksoy Tezer, abishalini, cambel, tbastiaens-riwo
+Checksums-Sha1:
+ a6380f3ded7925d387485c1e12606d1ad117db96 9708732 ros-humble-moveit-ros-planning-interface-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.ddeb
+ 35d01e18fea50fdf9a4e8d1c9c34333eb3aca1a7 35673 ros-humble-moveit-ros-planning-interface_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.buildinfo
+ 51b791413de46a7a18e0926fcc9fa8743570f513 265024 ros-humble-moveit-ros-planning-interface_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.deb
+Checksums-Sha256:
+ 17660371ad4b9297489b6e5fbe111702c58f98278e0e2bdcb4f96fbb3c3d21d2 9708732 ros-humble-moveit-ros-planning-interface-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.ddeb
+ acc17d2bf699721adeb647fa76fdc6b3f4325df1cf87a91caf97705f861a1a0f 35673 ros-humble-moveit-ros-planning-interface_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.buildinfo
+ 61e1f2fa13d0c9ccaacf6e87b94292709c975e03baad64fdcca8f5aca6b72010 265024 ros-humble-moveit-ros-planning-interface_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.deb
+Files:
+ 9dfefde0cca5bc202b461d9e41fdb635 9708732 debug optional ros-humble-moveit-ros-planning-interface-dbgsym_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.ddeb
+ a93d1c29644965d706a9e217e5d0ca1e 35673 misc optional ros-humble-moveit-ros-planning-interface_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.buildinfo
+ ee1cc654aa0fbfce5ebac904d0cb9fcc 265024 misc optional ros-humble-moveit-ros-planning-interface_2.6.0-1-g807a2ba54-2023.03.07.10.03_amd64.deb

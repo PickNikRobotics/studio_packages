@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Fri, 21 Oct 2022 00:00:00 -0000
+Source: ros-humble-rosbridge-library
+Binary: ros-humble-rosbridge-library
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 0.9.0-211-g05e254b-2023.03.07.12.16
+Distribution: jammy
+Urgency: high
+Maintainer: Jihoon Lee <jihoonlee.in@gmail.com>
+Changed-By: Jihoon Lee <jihoonlee.in@gmail.com>
+Description:
+ ros-humble-rosbridge-library - The core rosbridge package, responsible for interpreting JSON and
+Changes:
+ ros-humble-rosbridge-library (0.9.0-211-g05e254b-2023.03.07.12.16) jammy; urgency=high
+ .
+   * Optimized large binary array publishing (#819 <https://github.com/RobotWebTools/rosbridge_suite/issues/819>)
+   * Skip unnecessary conversion for cbor/cbor-raw compression (#792 <https://github.com/RobotWebTools/rosbridge_suite/issues/792>) (#800 <https://github.com/RobotWebTools/rosbridge_suite/issues/800>)
+   * Improve robustness for multiple client connections (#803 <https://github.com/RobotWebTools/rosbridge_suite/issues/803>)
+   * Minor performance improvements (#809 <https://github.com/RobotWebTools/rosbridge_suite/issues/809>)
+   * Remove unnecessary checking of topic globs. (#793 <https://github.com/RobotWebTools/rosbridge_suite/issues/793>) (#799 <https://github.com/RobotWebTools/rosbridge_suite/issues/799>)
+   * Fix duplicate subscription created with wrong 'raw' attribute. (#798 <https://github.com/RobotWebTools/rosbridge_suite/issues/798>)
+   * Contributors: Hans-Joachim Krauch, Steffen Nattke, Ted Sender
+Checksums-Sha1:
+ 93be9ac6aa330237ceec90ac654c706b0a37e750 15553 ros-humble-rosbridge-library_0.9.0-211-g05e254b-2023.03.07.12.16_amd64.buildinfo
+ aa54cd46002ea97c2f5155f798968f236721f182 45936 ros-humble-rosbridge-library_0.9.0-211-g05e254b-2023.03.07.12.16_amd64.deb
+Checksums-Sha256:
+ 03a9c9ee813c77a086c2056f5a3b4d4e5bbeffd31da509bca760267a0c88d922 15553 ros-humble-rosbridge-library_0.9.0-211-g05e254b-2023.03.07.12.16_amd64.buildinfo
+ 71c78ea70ec51df203d9d9d0fe9a6d249e23a1e9eaa738c1c7e78d53d01f6877 45936 ros-humble-rosbridge-library_0.9.0-211-g05e254b-2023.03.07.12.16_amd64.deb
+Files:
+ 262d7d9696ad456b3fe2fd19ea0237f1 15553 misc optional ros-humble-rosbridge-library_0.9.0-211-g05e254b-2023.03.07.12.16_amd64.buildinfo
+ 4a5841838a4ca98a5bea470757b3cabc 45936 misc optional ros-humble-rosbridge-library_0.9.0-211-g05e254b-2023.03.07.12.16_amd64.deb
